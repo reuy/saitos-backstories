@@ -1,0 +1,256 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+   <!-- Game Characters - Guess the Game character each backstory pertains to! -->
+   <AlienRace.BackstoryDef>
+      <defName>SS_Game_2</defName>
+      <title>Mine Crafter</title>
+      <titleFemale>Mine Crafter</titleFemale>
+      <titleShort>Builder</titleShort>
+      <titleShortFemale>Builder</titleShortFemale>
+      <baseDescription>NAME found XIMself alone on a beautiful and mysterious animal world with unexplained knowledge of construction and mining. XE carved out a living for XIMself, and spend XIS spare time building wonderous works of art.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+         <li>ImperialCommon</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Mining</defName>
+            <amount>15</amount>
+         </li>
+         <li>
+            <defName>Construction</defName>
+            <amount>10</amount>
+         </li>
+         <li>
+            <defName>Crafting</defName>
+            <amount>15</amount>
+         </li>
+         <li>
+            <defName>Artistic</defName>
+            <amount>6</amount>
+         </li>
+         <li>
+            <defName>Plants</defName>
+            <amount>5</amount>
+         </li>
+         <li>
+            <defName>Animals</defName>
+            <amount>5</amount>
+         </li>
+      </skillGains>
+      <requiredWorkTags>
+         <li>Violent</li>
+      </requiredWorkTags>
+   </AlienRace.BackstoryDef>
+</Defs>
+<!--
+
+	<AlienRace.BackstoryDef>
+		<defName>myDefName</defName>
+
+		<title>myTitle</title>
+		<titleShort>myTitleShort</titleShort>
+
+		<baseDescription>myBaseDescription</baseDescription>
+
+		<bodyTypeGlobal>myBodyTypeGlobal</bodyTypeGlobal>
+		<bodyTypeMale>mybodyTypeMale</bodyTypeMale>
+		<bodyTypeFemale>myBodyTypeFemale</bodyTypeFemale>
+
+		<slot>Childhood</slot> or <slot>Adulthood</slot>
+
+		<spawnCategories>
+			<li>mySpawnCategory</li>
+		</spawnCategories>
+
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+
+		<forcedTraits>
+			<li>
+				<defname>Beauty</defname>
+				<degree>2</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defname>Gay</defname>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defname>Psychopath</defname>
+			</li>
+		</forcedTraits>
+
+		<disallowedTraits>
+			<li>
+				<defname>SpeedOffset</defname>
+				<degree>2</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defname>Kind</defname>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defname>Bloodlust</defname>
+			</li>
+		</disallowedTraits>
+
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+
+		<workAllows>
+			<li>Animals</li>
+		</workAllows>
+
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+
+		<linkedBackstory>RandomBackstoryDefname</linkedBackstory>
+
+		<relationSettings>
+       //https://github.com/RimWorld-CCL-Reborn/AlienRaces/wiki/Relation-Settings
+		</relationSettings>
+
+		<forcedHediffs>
+			<li>hediffName</li>
+		</forcedHediffs>
+
+		<forcedItems>
+			<Luciferium>7~25</Luciferium>
+		</forcedItems>
+
+		<bioAgeRange>
+			<min>15</min>
+			<max>70</max>
+		</bioAgeRange>
+		<chronoAgeRange>
+			<min>15</min>
+			<max>70</max>
+		</chronoAgeRange>
+	</AlienRace.BackstoryDef>
+
+</Defs>-->
+<!--
+Skills
+========================
+<skillGains>
+<li>
+<amount></amount>
+</li>
+</skillGains>
+========================
+<defName>Shooting</defName>
+<defName>Melee</defName>
+<defName>Construction</defName>
+<defName>Mining</defName>
+<defName>Cooking</defName>
+<defName>Plants</defName>
+<defName>Animals</defName>
+<defName>Crafting</defName>
+<defName>Artistic</defName>
+<defName>Medicine</defName>
+<defName>Social</defName>
+<defName>Intellectual</defName>
+
+Traits
+============================
+<forcedTraits>
+<li>
+<degree></degree>
+<chance></chance>
+</li>
+</forcedTraits>
+============================
+<defName>Nudist</defName>
+<defName>Bloodlust</defName>
+<defName>Kind</defName>
+<defName>Psychopath</defName>
+<defName>Cannibal</defName>
+<defName>Abrasive</defName>
+<defName>TooSmart</defName>
+<defName>Brawler</defName>
+<defName>Masochist</defName>
+<defName>NightOwl</defName>
+<defName>Greedy</defName>
+<defName>Jealous</defName>
+<defName>Ascetic</defName>
+<defName>Gay</defName>
+<defName>Bisexual</defName>
+<defName>Asexual</defName>
+<defName>AnnoyingVoice</defName>
+<defName>CreepyBreathing</defName>
+<defName>Pyromaniac</defName>
+<defName>Wimp</defName>
+<defName>Nimble</defName>
+<defName>FastLearner</defName>
+<defName>SlowLearner</defName>
+<defName>Undergrounder</defName>
+<defName>Transhumanist</defName>
+<defName>BodyPurist</defName>
+<defName>DislikesMen</defName>
+<defName>DislikesWomen</defName>
+<defName>GreatMemory</defName>
+<defName>Tough</defName>
+<defName>TorturedArtist</defName>
+<defName>Gourmand</defName>
+<defName>QuickSleeper</defName>
+
+<defName>SpeedOffset</defName><degree></degree>
+<defName>DrugDesire</defName><degree></degree>
+<defName>NaturalMood</defName><degree></degree>
+<defName>Nerves</defName><degree></degree>
+<defName>Neurotic</defName><degree></degree>
+<defName>Industriousness</defName><degree></degree>
+<defName>PsychicSensitivity</defName><degree></degree>
+<defName>ShootingAccuracy</defName><degree></degree>
+<defName>Beauty</defName><degree></degree>
+<defName>Immunity</defName><degree></degree>
+
+workDisables
+===================
+<workDisables>
+<li></li>
+</workDisables>
+===================
+<li>Animals</li>
+<li>Artistic</li>
+<li>Caring</li>
+<li>Cleaning</li>
+<li>Construction</li> ManulaSkilled
+<li>Cooking</li>
+<li>Crafting</li>
+<li>Firefighting</li>
+<li>Hauling</li>
+<li>Hunting</li>  
+<li>Intellectual</li>
+<li>ManualDumb</li>
+<li>ManualSkilled</li>
+<li>Medicine</li> Caring ?
+<li>Mining</li>
+<li>PlantWork</li>
+<li>Plants</li>
+<li>Shooting</li>
+<li>Social</li>
+<li>Violent</li>
+
+MetaWords
+============
+[PAWN_nameDef] Bobby
+[PAWN_nameFull] Juan Bobby Fisher
+[PAWN_pronoun] he/she
+[PAWN_possessive] his/her
+[PAWN_objective] him/her
+-->
+

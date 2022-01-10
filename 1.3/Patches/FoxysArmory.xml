@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+   <Operation Class="PatchOperationFindMod">
+      <mods>
+         <li>Vanilla Apparel Expanded</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+	  	  <!-- If Foxy's Armory is installed, makes Glitterworld pawnkinds prefer Foxy's weapon variants instead. -->
+         <operations>
+            <!-- Spacer Weapons -->
+            <li Class="PatchOperationAdd">
+               <xpath>/ThingDefs/ThingDef[defName = "Gun_ChargeRifle"]/weaponTags</xpath>
+               <value>
+                  <li>SpacerRifle</li>
+               </value>
+            </li>
+         </operations>
+      </match>
+   </Operation>
+</Patch>
+

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef>
+    <defName>Glitterworld_Soldier</defName>
+    <label>glitterworld soldier</label>
+    <race>Human</race>
+    <combatPower>125</combatPower>
+    <baseRecruitDifficulty>0.30</baseRecruitDifficulty>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+    <chemicalAddictionChance>0.08</chemicalAddictionChance>
+    <apparelMoney>0~3800</apparelMoney>
+    <apparelTags>
+      <li>SpacerMilitary</li>
+      <li>BeltDefensePop</li>
+    </apparelTags>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <weaponMoney>300~900</weaponMoney>
+    <weaponTags>
+		<li>SpacerGun</li>
+    </weaponTags>
+    <techHediffsMoney>2000~3000</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+      <li>AdvancedWeapon</li>
+    </techHediffsTags>
+    <techHediffsChance>0.40</techHediffsChance>
+    <combatEnhancingDrugsChance>0.5</combatEnhancingDrugsChance>
+    <combatEnhancingDrugsCount>1~2</combatEnhancingDrugsCount>
+    <biocodeWeaponChance>0.2</biocodeWeaponChance>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <initialWillRange>0</initialWillRange>
+    <initialResistanceRange>0~1</initialResistanceRange>
+  </PawnKindDef>
+
+
+ <PawnKindDef ParentName="GlitterworldSoldier">
+     <defName>Glitterworld_Rifleman</defName>
+	<label>glitterworld rifleman</label>
+    <race>Human</race>
+    <combatPower>65</combatPower>
+    <apparelMoney>5000~8000</apparelMoney>
+    <weaponTags Inherit="False">
+      <li>SpacerRifle</li>
+    </weaponTags>
+  </PawnKindDef>
+  
+  
+ <PawnKindDef ParentName="GlitterworldSoldier">
+     <defName>Glitterworld_Sniper</defName>
+	<label>glitterworld sniper</label>
+    <race>Human</race>
+    <combatPower>65</combatPower>
+    <apparelMoney>5000~8000</apparelMoney>
+    <weaponTags Inherit= "False">
+      <li>SpacerSniper</li>
+    </weaponTags>
+  </PawnKindDef>
+  
+ <PawnKindDef ParentName="GlitterworldSoldier">
+     <defName>Glitterworld_Rifleman</defName>
+	<label>glitterworld rifleman</label>
+    <race>Human</race>
+    <combatPower>65</combatPower>
+    <apparelMoney>5000~8000</apparelMoney>
+    <weaponTags Inherit= "False">
+      <li>SpacerHeavy</li>
+    </weaponTags>
+  </PawnKindDef>
+  
+  
+   <PawnKindDef ParentName="GlitterworldSoldier">
+     <defName>Glitterworld_Engineer</defName>
+	<label>glitterworld rifleman</label>
+    <race>Human</race>
+    <combatPower>65</combatPower>
+    <apparelMoney>5000~8000</apparelMoney>
+    <weaponTags Inherit= "False">
+      <li>SpacerShotgun</li>
+	  <li>SpacerPistol</li>
+    </weaponTags>
+  </PawnKindDef>
+  
+    <PawnKindDef ParentName="GlitterworldSoldier">
+     <defName>Glitterworld_Engineer</defName>
+	<label>glitterworld engineer</label>
+    <race>Human</race>
+    <combatPower>65</combatPower>
+    <apparelMoney>5000~8000</apparelMoney>
+    <weaponTags Inherit= "False">
+      <li>SpacerShotgun</li>
+	  <li>SpacerPistol</li>
+    </weaponTags>
+	<requiredWorkTags>
+      <li>Construction</li>
+	  <li>Crafting</li>
+    </requiredWorkTags>
+  </PawnKindDef>
+  
+ <PawnKindDef ParentName="GlitterworldSoldier">
+     <defName>Glitterworld_Officer</defName>
+	<label>glitterworld officer</label>
+    <race>Human</race>
+    <combatPower>65</combatPower>
+    <apparelMoney>5000~8000</apparelMoney>
+    <weaponTags Inherit= "False">
+      <li>SpacerPistol</li>
+    </weaponTags>
+	<requiredWorkTags>
+      <li>Social</li>
+    </requiredWorkTags>
+  </PawnKindDef>
+</Defs>

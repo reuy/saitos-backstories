@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Purgeworld characters - Hyperspecialized and broken pawns -->
+	
+	<AlienRace.BackstoryDef>
+		<defName>PW_Cleaner</defName>
+		<title>Purgeworld Janitor</title>
+		<titleFemale>Purgeworld Janitor</titleFemale>
+		<titleShort>Janitor</titleShort>
+		<titleShortFemale>Janitor</titleShortFemale>
+		<baseDescription>NAME grew up on a world that forced individuals to compete to become the best janitors and cleaning experts. The losers would be drowned to death in the fecal matter of the winners. This instilled in NAME an excellent work ethic for cleaning, while scarring XER greatly.
+		</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>Offworld</li>
+			<li>Outlander</li>
+			<li>ImperialCommon</li>
+		</spawnCategories>
+		<forcedTraits>
+			<li>
+				<defname>Industriousness</defname>
+				<degree>2</degree>
+			</li>
+			<li>
+				<defname>SpeedOffset</defname>
+				<degree>2</degree>
+			</li>
+			<li>
+				<defname>Neat</defname>
+			</li>
+			<li>
+				<defname>Neurotic</defname>
+				<degree>2</degree>
+			</li>
+		</forcedTraits>
+    <workAllows>
+        <li>Cleaning</li>
+    </workAllows>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>PW_Chef</defName>
+		<title>Purgeworld Chef</title>
+		<titleFemale>Purgeworld Chef</titleFemale>
+		<titleShort>Chef</titleShort>
+		<titleShortFemale>Chef</titleShortFemale>
+		<baseDescription>NAME grew up on a world that forced all children to compete in cooking contests, where losers would be cooked alive to serve to judges by the runners up. This taught NAME a great deal about preparing all kinds of dishes, while scarring XIM greatly.
+		</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>Offworld</li>
+			<li>Outlander</li>
+			<li>ImperialCommon</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>17</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defname>Industriousness</defname>
+				<degree>2</degree>
+			</li>
+			<li>
+				<defname>Cannibal</defname>
+			</li>
+			<li>
+				<defname>Gourmand</defname>
+			</li>
+			<li>
+				<defname>Neurotic</defname>
+				<degree>2</degree>
+			</li>
+		</forcedTraits>
+    <workAllows>
+        <li>Cooking</li>
+		<li>Cleaning</li>
+		<li>Animals</li>
+		<li>Plants</li>
+		<li>Hauling</li>
+    </workAllows>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>PW_Builder</defName>
+		<title>Purgeworld Architect</title>
+		<titleFemale>Purgeworld Architect</titleFemale>
+		<titleShort>Architect</titleShort>
+		<titleShortFemale>Architect</titleShortFemale>
+		<baseDescription>NAME grew up on a world that forced all children to compete in design and building contests, where losers would be killed by machines designed by the runners up. Surviving the trials made NAME an extremely skilled builder, at the cost of scarring XIM greatly.
+		</baseDescription>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>Offworld</li>
+			<li>Outlander</li>
+			<li>ImperialCommon</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Construction</defName>
+				<amount>17</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defname>Industriousness</defname>
+				<degree>2</degree>
+			</li>
+			<li>
+				<defname>Neurotic</defname>
+				<degree>2</degree>
+			</li>
+		</forcedTraits>
+    <workAllows>
+		<li>Construction</li>
+		<li>Hauling</li>
+    </workAllows>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>PW_Miner</defName>
+		<title>Purgeworld Miner</title>
+		<titleFemale>Purgeworld Miner</titleFemale>
+		<titleShort>Miner</titleShort>
+		<titleShortFemale>Miner</titleShortFemale>
+		<baseDescription>NAME grew up in a cave Purgeworld, where children would be forced every day of their lives to dig out of artificially-placed stone tombs or perish. Surviving the tombs made NAME an extremely skilled miner, at the cost of scarring XIM greatly.
+		</baseDescription>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>Offworld</li>
+			<li>Outlander</li>
+			<li>ImperialCommon</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Mining</defName>
+				<amount>17</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defname>Industriousness</defname>
+				<degree>2</degree>
+			</li>
+			<li>
+				<defname>Neurotic</defname>
+				<degree>2</degree>
+			</li>
+			<li>
+				<defname>Undergrounder</defname>
+				<degree>2</degree>
+			</li>
+		</forcedTraits>
+    <workAllows>
+		<li>Mining</li>
+		<li>Hauling</li>
+    </workAllows>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>PW_Grower</defName>
+		<title>Purgeworld Farmer</title>
+		<titleFemale>Purgeworld Farmer</titleFemale>
+		<titleShort>Farmer</titleShort>
+		<titleShortFemale>Farmer</titleShortFemale>
+		<baseDescription>NAME grew up on an agricultural Purgeworld, where all citizens were forced to meet monthly farming quotas or be forcibly converted into fertilizer. NAME learned quickly the intricacies of sowing and harvesting crops, at the cost of scarring XIM greatly.
+		</baseDescription>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>Offworld</li>
+			<li>Outlander</li>
+			<li>ImperialCommon</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Mining</defName>
+				<amount>17</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defname>Industriousness</defname>
+				<degree>2</degree>
+			</li>
+			<li>
+				<defname>Neurotic</defname>
+				<degree>2</degree>
+			</li>
+		</forcedTraits>
+    <workAllows>
+		<li>PlantWork</li>
+		<li>Plants</li>
+		<li>Hauling</li>
+    </workAllows>
+	</AlienRace.BackstoryDef>
+	
+	
+	<AlienRace.BackstoryDef>
+		<defName>PW_Doctor</defName>
+		<title>Purgeworld Doctor</title>
+		<titleFemale>Doctor</titleFemale>
+		<titleShort>Doctor</titleShort>
+		<titleShortFemale>Farmer</titleShortFemale>
+		<baseDescription>NAME grew up on a Purgeworld obsessed with the human form, where all citizens were forced to study human anatomy, or be dissected alive. The constant studies under threat of slow, agonizing death gave NAME an intimate knowledge of the human body, while scarring XIM mentally.
+		</baseDescription>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>Offworld</li>
+			<li>Outlander</li>
+			<li>ImperialCommon</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Medicine</defName>
+				<amount>17</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defname>Industriousness</defname>
+				<degree>2</degree>
+			</li>
+			<li>
+				<defname>Neurotic</defname>
+				<degree>2</degree>
+			</li>
+		</forcedTraits>
+    <workAllows>
+		<li>Medicine</li>
+		<li>Intellectual</li>
+    </workAllows>
+	</AlienRace.BackstoryDef>
+	
+	
+	<AlienRace.BackstoryDef>
+		<defName>PW_Artist</defName>
+		<title>Purgeworld Artist</title>
+		<titleFemale>Purgeworld Artist</titleFemale>
+		<titleShort>Artist</titleShort>
+		<titleShortFemale>Artist</titleShortFemale>
+		<baseDescription>NAME grew up on an artistic Purgeworld, where all citizens were forced to compete in various art contests, where those whose art was judged below their peers would forcibly converted into biomass for use in art projects. NAME's art proved to be among the best, but the ordeal scarred XIM greatly.
+		</baseDescription>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>Offworld</li>
+			<li>Outlander</li>
+			<li>ImperialCommon</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Medicine</defName>
+				<amount>17</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defname>Industriousness</defname>
+				<degree>2</degree>
+			</li>
+			<li>
+				<defname>Neurotic</defname>
+				<degree>2</degree>
+			</li>
+			<li>
+				<defname>TorturedArtist</defname>
+				<degree>2</degree>
+			</li>
+		</forcedTraits>
+    <workAllows>
+		<li>Artistic</li>
+    </workAllows>
+	</AlienRace.BackstoryDef>
+</Defs>
+	<!--
+
+	<AlienRace.BackstoryDef>
+		<defName>myDefName</defName>
+
+		<title>myTitle</title>
+		<titleShort>myTitleShort</titleShort>
+
+		<baseDescription>myBaseDescription</baseDescription>
+
+		<bodyTypeGlobal>myBodyTypeGlobal</bodyTypeGlobal>
+		<bodyTypeMale>mybodyTypeMale</bodyTypeMale>
+		<bodyTypeFemale>myBodyTypeFemale</bodyTypeFemale>
+
+		<slot>Childhood</slot> or <slot>Adulthood</slot>
+
+		<spawnCategories>
+			<li>mySpawnCategory</li>
+		</spawnCategories>
+
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+
+		<forcedTraits>
+			<li>
+				<defname>Beauty</defname>
+				<degree>2</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defname>Gay</defname>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defname>Psychopath</defname>
+			</li>
+		</forcedTraits>
+
+		<disallowedTraits>
+			<li>
+				<defname>SpeedOffset</defname>
+				<degree>2</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defname>Kind</defname>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defname>Bloodlust</defname>
+			</li>
+		</disallowedTraits>
+
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+
+		<workAllows>
+			<li>Animals</li>
+		</workAllows>
+
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+
+		<linkedBackstory>RandomBackstoryDefname</linkedBackstory>
+
+		<relationSettings>
+       //https://github.com/RimWorld-CCL-Reborn/AlienRaces/wiki/Relation-Settings
+		</relationSettings>
+
+		<forcedHediffs>
+			<li>hediffName</li>
+		</forcedHediffs>
+
+		<forcedItems>
+			<Luciferium>7~25</Luciferium>
+		</forcedItems>
+
+		<bioAgeRange>
+			<min>15</min>
+			<max>70</max>
+		</bioAgeRange>
+		<chronoAgeRange>
+			<min>15</min>
+			<max>70</max>
+		</chronoAgeRange>
+	</AlienRace.BackstoryDef>
+-->
+<!--
+Skills
+========================
+<skillGains>
+<li>
+<amount></amount>
+</li>
+</skillGains>
+========================
+<defName>Shooting</defName>
+<defName>Melee</defName>
+<defName>Construction</defName>
+<defName>Mining</defName>
+<defName>Cooking</defName>
+<defName>Plants</defName>
+<defName>Animals</defName>
+<defName>Crafting</defName>
+<defName>Artistic</defName>
+<defName>Medicine</defName>
+<defName>Social</defName>
+<defName>Intellectual</defName>
+
+Traits
+============================
+<forcedTraits>
+<li>
+<degree></degree>
+<chance></chance>
+</li>
+</forcedTraits>
+============================
+<defName>Nudist</defName>
+<defName>Bloodlust</defName>
+<defName>Kind</defName>
+<defName>Psychopath</defName>
+<defName>Cannibal</defName>
+<defName>Abrasive</defName>
+<defName>TooSmart</defName>
+<defName>Brawler</defName>
+<defName>Masochist</defName>
+<defName>NightOwl</defName>
+<defName>Greedy</defName>
+<defName>Jealous</defName>
+<defName>Ascetic</defName>
+<defName>Gay</defName>
+<defName>Bisexual</defName>
+<defName>Asexual</defName>
+<defName>AnnoyingVoice</defName>
+<defName>CreepyBreathing</defName>
+<defName>Pyromaniac</defName>
+<defName>Wimp</defName>
+<defName>Nimble</defName>
+<defName>FastLearner</defName>
+<defName>SlowLearner</defName>
+<defName>Undergrounder</defName>
+<defName>Transhumanist</defName>
+<defName>BodyPurist</defName>
+<defName>DislikesMen</defName>
+<defName>DislikesWomen</defName>
+<defName>GreatMemory</defName>
+<defName>Tough</defName>
+<defName>TorturedArtist</defName>
+<defName>Gourmand</defName>
+<defName>QuickSleeper</defName>
+
+<defName>SpeedOffset</defName><degree></degree>
+<defName>DrugDesire</defName><degree></degree>
+<defName>NaturalMood</defName><degree></degree>
+<defName>Nerves</defName><degree></degree>
+<defName>Neurotic</defName><degree></degree>
+<defName>Industriousness</defName><degree></degree>
+<defName>PsychicSensitivity</defName><degree></degree>
+<defName>ShootingAccuracy</defName><degree></degree>
+<defName>Beauty</defName><degree></degree>
+<defName>Immunity</defName><degree></degree>
+
+workDisables
+===================
+<workDisables>
+<li></li>
+</workDisables>
+===================
+<li>Animals</li>
+<li>Artistic</li>
+<li>Caring</li>
+<li>Cleaning</li>
+<li>Construction</li> ManulaSkilled
+<li>Cooking</li>
+<li>Crafting</li>
+<li>Firefighting</li>
+<li>Hauling</li>
+<li>Hunting</li>  
+<li>Intellectual</li>
+<li>ManualDumb</li>
+<li>ManualSkilled</li>
+<li>Medicine</li> Caring ?
+<li>Mining</li>
+<li>PlantWork</li>
+<li>Plants</li>
+<li>Shooting</li>
+<li>Social</li>
+<li>Violent</li>
+
+MetaWords
+============
+[PAWN_nameDef] NAME Bobby
+[PAWN_nameFull] FULLNAME Juan Bobby Fisher
+[PAWN_pronoun] XE he/she
+[PAWN_possessive] XIS his/her
+[PAWN_objective] XER him/her
+-->

@@ -1,0 +1,716 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+   <!-- Anime Characters - Guess the anime character each backstory pertains to! -->
+   <AlienRace.BackstoryDef>
+      <defName>SS_Anime_2</defName>
+      <title>Sword Practitioner</title>
+      <titleFemale>Sword Practitioner</titleFemale>
+      <titleShort>Swordsman</titleShort>
+      <titleShortFemale>Swordswoman</titleShortFemale>
+      <baseDescription>NAME spent XER youth studying the blade as a hobby.</baseDescription>
+      <bodyTypeMale>Hulk</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+         <li>ImperialCommon</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Melee</defName>
+            <amount>10</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defname>Nimble</defname>
+         </li>
+         <li>
+            <defname>Brawler</defname>
+         </li>
+      </forcedTraits>
+      <requiredWorkTags>
+         <li>Violent</li>
+      </requiredWorkTags>
+   </AlienRace.BackstoryDef>
+   
+   
+   <AlienRace.BackstoryDef>
+      <defName>SS_Anime_3</defName>
+      <title>Sword Practitioner</title>
+      <titleFemale>Sword Practitioner</titleFemale>
+      <titleShort>Swordsman</titleShort>
+      <titleShortFemale>Swordswoman</titleShortFemale>
+      <baseDescription>NAME spent XER youth studying the blade as a hobby.</baseDescription>
+      <bodyTypeMale>Hulk</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+         <li>ImperialCommon</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Melee</defName>
+            <amount>10</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defname>Nimble</defname>
+         </li>
+         <li>
+            <defname>Brawler</defname>
+         </li>
+      </forcedTraits>
+      <requiredWorkTags>
+         <li>Violent</li>
+      </requiredWorkTags>
+   </AlienRace.BackstoryDef>
+ 
+   <AlienRace.BackstoryDef>
+      <defName>SS_Anime_4</defName>
+      <title>Muscle Idiot</title>
+      <titleFemale>Muscle Idiot</titleFemale>
+      <titleShort>Muscle Idiot</titleShort>
+      <titleShortFemale>Muscle Idiot</titleShortFemale>
+      <baseDescription>NAME had been bullied relentlessly growing up, and took to weightlifting at an early age. While it stopped the bullying, it never earned XER the belonging or respect XE truly craved.</baseDescription>
+      <bodyTypeMale>Hulk</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+         <li>ImperialCommon</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Melee</defName>
+            <amount>10</amount>
+         </li>
+         <li>
+            <defName>Intellectual</defName>
+            <amount>-5</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defname>Tough</defname>
+         </li>
+         <li>
+            <defname>Brawler</defname>
+         </li>
+      </forcedTraits>
+      <femaleCommonality>1</femaleCommonality>
+      <requiredWorkTags>
+         <li>Violent</li>
+      </requiredWorkTags>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>SS_Anime_5</defName>
+      <title>Awkward Kid</title>
+      <titleFemale>Awkward Kid</titleFemale>
+      <titleShort>Awkward Kid</titleShort>
+      <titleShortFemale>Awkward Kid</titleShortFemale>
+      <baseDescription>NAME always preferred the company of XER cats growing up. XE never learned to feel fully comfortable in conversations with fellow humans, however.</baseDescription>
+      <bodyTypeMale>Thin</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+         <li>ImperialCommon</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Melee</defName>
+            <amount>2</amount>
+         </li>
+         <li>
+            <defName>Social</defName>
+            <amount>-3</amount>
+         </li>
+         <li>
+            <defName>Animals</defName>
+            <amount>6</amount>
+         </li>
+      </skillGains>
+      <requiredWorkTags>
+         <li>Animals</li>
+      </requiredWorkTags>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>SS_Anime_6</defName>
+      <title>Fairytale Kid</title>
+      <titleFemale>Fairytale Girl</titleFemale>
+      <titleShort>Idealist</titleShort>
+      <titleShortFemale>Idealist</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] was an idealistic child who loved to read  fairy tales growing up. Despite XER naivete, [PAWN_pronoun]'s kind heart made [PAWN_objective] well-loved in XER midworld high school.</baseDescription>
+      <bodyTypeMale>Thin</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Social</defName>
+            <amount>3</amount>
+         </li>
+         <li>
+            <defName>Construction</defName>
+            <amount>2</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defname>Kind</defname>
+         </li>
+         <li>
+            <defname>Wimp</defname>
+            <chance>50</chance>
+         </li>
+      </forcedTraits>
+      <requiredWorkTags>
+         <li>Social</li>
+      </requiredWorkTags>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>SS_Anime_7</defName>
+      <title>Aspiring Astronaut</title>
+      <titleFemale>Aspiring Astronaut</titleFemale>
+      <titleShort>Space Cadet</titleShort>
+      <titleShortFemale>Space Cadet</titleShortFemale>
+      <baseDescription>NAME wanted nothing more than to follow in XER mother's footsteps as a space explorer. Unfortunately, while talented, XER inability to master the language of XER world's air traffic control resulted in XER rejection from flight school.</baseDescription>
+      <bodyTypeMale>Thin</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+         <li>ImperialCommon</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName />
+            <amount>-3</amount>
+         </li>
+         <li>
+            <defName>Intellectual</defName>
+            <amount>6</amount>
+         </li>
+         <li>
+            <defName>Crafting</defName>
+            <amount>3</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defname>SlowLearner</defname>
+            <chance>25</chance>
+         </li>
+      </forcedTraits>
+      <requiredWorkTags>
+         <li>Intellectual</li>
+      </requiredWorkTags>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>SS_Anime_8</defName>
+      <title>Unwanted Scion</title>
+      <titleFemale>Unwanted Daughter</titleFemale>
+      <titleShort>Delinquent</titleShort>
+      <titleShortFemale>Delinquent</titleShortFemale>
+      <baseDescription>As a child, NAME was forced to compete with XER siblings to prove worthiness to inherit XER family's megacorp. NAME lost these games and was branded a shame to the family, and relentlessly abused and gaslighted. XE found solace from the abuse in fanciful crafting projects.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+         <li>ImperialCommon</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Crafting</defName>
+            <amount>3</amount>
+         </li>
+         <li>
+            <defName>Artistic</defName>
+            <amount>3</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defname>Volatile</defname>
+            <chance>50</chance>
+         </li>
+         <li>
+            <defname>TorturedArtist</defname>
+            <chance>50</chance>
+         </li>
+      </forcedTraits>
+      <requiredWorkTags />
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>SS_Anime_9</defName>
+      <title>Midworld Prodigy</title>
+      <titleFemale>Midworld Prodigy</titleFemale>
+      <titleShort>Prodigy</titleShort>
+      <titleShortFemale>Prodigy</titleShortFemale>
+      <baseDescription>NAME was always blessed - or cursed - with limited emotion. XE ended up becoming a top-ranking student in XER midworld high school with a wide range of skills, but XER faked emotions tended to turn others away.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Intellectual</defName>
+            <amount>8</amount>
+         </li>
+         <li>
+            <defName>Artistic</defName>
+            <amount>4</amount>
+         </li>
+         <li>
+            <defName>Social</defName>
+            <amount>4</amount>
+         </li>
+         <li>
+            <defName>Medicine</defName>
+            <amount>4</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defname>Iron-willed</defname>
+            <chance>50</chance>
+         </li>
+         <li>
+            <defname>TooSmart</defname>
+            <chance>50</chance>
+         </li>
+      </forcedTraits>
+      <requiredWorkTags />
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>SS_Anime_10</defName>
+      <title>Midworld Bookworm</title>
+      <titleFemale>Midworld Bookworm</titleFemale>
+      <titleShort>Bookworm</titleShort>
+      <titleShortFemale>Bookworm</titleShortFemale>
+      <baseDescription>NAME tended to stick to make-believe fantasies, fiction, and non-fiction books during XER childhood. As a result, XE ended up with a wealth of knowledge in many topics, but not a lot of experience socializing.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Intellectual</defName>
+            <amount>8</amount>
+         </li>
+         <li>
+            <defName>Artistic</defName>
+            <amount>4</amount>
+         </li>
+         <li>
+            <defName>Plants</defName>
+            <amount>3</amount>
+         </li>
+         <li>
+            <defName>Animals</defName>
+            <amount>3</amount>
+         </li>
+         <li>
+            <defName>Medicine</defName>
+            <amount>4</amount>
+         </li>
+         <li>
+            <defName>Social</defName>
+            <amount>-3</amount>
+         </li>
+      </skillGains>
+      <workDisables>
+         <li>ManualDumb</li>
+      </workDisables>
+      <requiredWorkTags />
+   </AlienRace.BackstoryDef>
+<!-- Next Anime-->
+   
+   <AlienRace.BackstoryDef>
+      <defName>SS_Anime_11</defName>
+      <title>VR Swordmaster</title>
+      <titleFemale>VR Swordmaster</titleFemale>
+      <titleShort>Swordsman</titleShort>
+      <titleShortFemale>Swordswoman</titleShortFemale>
+      <baseDescription>NAME suffered from an illness that forced XIM to spend most of XER time in virtual reality. XE spent this time training to become the best swordsman in XER VR MMORPG.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Melee</defName>
+            <amount>8</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defname>Nimble</defname>
+            <chance>75</chance>
+         </li>
+         <li>
+            <defname>Jogger</defname>
+            <chance>50</chance>
+         </li>
+         <li>
+            <defname>Tough</defname>
+            <chance>50</chance>
+         </li>
+         <li>
+            <defname>Brawler</defname>
+         </li>
+         <li>
+            <defname>Immunity</defname>
+            <degree>-1</degree>
+         </li>
+      </forcedTraits>
+      <requiredWorkTags />
+   </AlienRace.BackstoryDef>
+<!-- Next Anime-->
+   <AlienRace.BackstoryDef>
+      <defName>SS_Anime_20</defName>
+      <title>VR Swordmaster</title>
+      <titleFemale>VR Swordmaster</titleFemale>
+      <titleShort>Swordsman</titleShort>
+      <titleShortFemale>Swordswoman</titleShortFemale>
+      <baseDescription>NAME suffered from an illness that forced XIM to spend most of XER time in virtual reality. XE spent this time training to become the best swordsman in XER VR MMORPG.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Melee</defName>
+            <amount>8</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defname>Nimble</defname>
+            <chance>75</chance>
+         </li>
+         <li>
+            <defname>Jogger</defname>
+            <chance>50</chance>
+         </li>
+         <li>
+            <defname>Tough</defname>
+            <chance>50</chance>
+         </li>
+         <li>
+            <defname>Brawler</defname>
+         </li>
+         <li>
+            <defname>Immunity</defname>
+            <degree>-1</degree>
+         </li>
+      </forcedTraits>
+      <requiredWorkTags />
+   </AlienRace.BackstoryDef>
+<!-- Next Anime-->
+   <AlienRace.BackstoryDef>
+      <defName>SS_Anime_21</defName>
+      <title>Renegade Prince</title>
+      <titleFemale>Renegade Princess</titleFemale>
+      <titleShort>Prince</titleShort>
+      <titleShortFemale>Princess</titleShortFemale>
+      <baseDescription>NAME ran away from XER royal family and spent years traveling the world, picking up various odd jobs.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+		 <li>ImperialCommon</li>
+		 <li>ImperialFighter</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Construction</defName>
+            <amount>3</amount>
+         </li>
+         <li>
+            <defName>Plants</defName>
+            <amount>3</amount>
+         </li>
+         <li>
+            <defName>Animals</defName>
+            <amount>3</amount>
+         </li>
+         <li>
+            <defName>Crafting</defName>
+            <amount>3</amount>
+         </li>
+      </skillGains>
+      <requiredWorkTags />
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>SS_Anime_22</defName>
+      <title>Druid Child</title>
+      <titleFemale>Druid Child</titleFemale>
+      <titleShort>Druid</titleShort>
+      <titleShortFemale>Druid</titleShortFemale>
+      <baseDescription>NAME was a servant assigned to care for a designated.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+		 <li>ImperialCommon</li>
+		 <li>ImperialFighter</li>
+		 <li>Tribal</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Construction</defName>
+            <amount>3</amount>
+         </li>
+         <li>
+            <defName>Plants</defName>
+            <amount>3</amount>
+         </li>
+         <li>
+            <defName>Animals</defName>
+            <amount>3</amount>
+         </li>
+         <li>
+            <defName>Crafting</defName>
+            <amount>3</amount>
+         </li>
+      </skillGains>
+      <requiredWorkTags />
+   </AlienRace.BackstoryDef>
+</Defs>
+<!--
+
+	<AlienRace.BackstoryDef>
+		<defName>myDefName</defName>
+
+		<title>myTitle</title>
+		<titleShort>myTitleShort</titleShort>
+
+		<baseDescription>myBaseDescription</baseDescription>
+
+		<bodyTypeGlobal>myBodyTypeGlobal</bodyTypeGlobal>
+		<bodyTypeMale>mybodyTypeMale</bodyTypeMale>
+		<bodyTypeFemale>myBodyTypeFemale</bodyTypeFemale>
+
+		<slot>Childhood</slot> or <slot>Adulthood</slot>
+
+		<spawnCategories>
+			<li>mySpawnCategory</li>
+		</spawnCategories>
+
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+
+		<forcedTraits>
+			<li>
+				<defname>Beauty</defname>
+				<degree>2</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defname>Gay</defname>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defname>Psychopath</defname>
+			</li>
+		</forcedTraits>
+
+		<disallowedTraits>
+			<li>
+				<defname>SpeedOffset</defname>
+				<degree>2</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defname>Kind</defname>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defname>Bloodlust</defname>
+			</li>
+		</disallowedTraits>
+
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+
+		<workAllows>
+			<li>Animals</li>
+		</workAllows>
+
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+
+		<linkedBackstory>RandomBackstoryDefname</linkedBackstory>
+
+		<relationSettings>
+       //https://github.com/RimWorld-CCL-Reborn/AlienRaces/wiki/Relation-Settings
+		</relationSettings>
+
+		<forcedHediffs>
+			<li>hediffName</li>
+		</forcedHediffs>
+
+		<forcedItems>
+			<Luciferium>7~25</Luciferium>
+		</forcedItems>
+
+		<bioAgeRange>
+			<min>15</min>
+			<max>70</max>
+		</bioAgeRange>
+		<chronoAgeRange>
+			<min>15</min>
+			<max>70</max>
+		</chronoAgeRange>
+	</AlienRace.BackstoryDef>
+
+</Defs>-->
+<!--
+Skills
+========================
+<skillGains>
+<li>
+<amount></amount>
+</li>
+</skillGains>
+========================
+<defName>Shooting</defName>
+<defName>Melee</defName>
+<defName>Construction</defName>
+<defName>Mining</defName>
+<defName>Cooking</defName>
+<defName>Plants</defName>
+<defName>Animals</defName>
+<defName>Crafting</defName>
+<defName>Artistic</defName>
+<defName>Medicine</defName>
+<defName>Social</defName>
+<defName>Intellectual</defName>
+
+Traits
+============================
+<forcedTraits>
+<li>
+<degree></degree>
+<chance></chance>
+</li>
+</forcedTraits>
+============================
+<defName>Nudist</defName>
+<defName>Bloodlust</defName>
+<defName>Kind</defName>
+<defName>Psychopath</defName>
+<defName>Cannibal</defName>
+<defName>Abrasive</defName>
+<defName>TooSmart</defName>
+<defName>Brawler</defName>
+<defName>Masochist</defName>
+<defName>NightOwl</defName>
+<defName>Greedy</defName>
+<defName>Jealous</defName>
+<defName>Ascetic</defName>
+<defName>Gay</defName>
+<defName>Bisexual</defName>
+<defName>Asexual</defName>
+<defName>AnnoyingVoice</defName>
+<defName>CreepyBreathing</defName>
+<defName>Pyromaniac</defName>
+<defName>Wimp</defName>
+<defName>Nimble</defName>
+<defName>FastLearner</defName>
+<defName>SlowLearner</defName>
+<defName>Undergrounder</defName>
+<defName>Transhumanist</defName>
+<defName>BodyPurist</defName>
+<defName>DislikesMen</defName>
+<defName>DislikesWomen</defName>
+<defName>GreatMemory</defName>
+<defName>Tough</defName>
+<defName>TorturedArtist</defName>
+<defName>Gourmand</defName>
+<defName>QuickSleeper</defName>
+
+<defName>SpeedOffset</defName><degree></degree>
+<defName>DrugDesire</defName><degree></degree>
+<defName>NaturalMood</defName><degree></degree>
+<defName>Nerves</defName><degree></degree>
+<defName>Neurotic</defName><degree></degree>
+<defName>Industriousness</defName><degree></degree>
+<defName>PsychicSensitivity</defName><degree></degree>
+<defName>ShootingAccuracy</defName><degree></degree>
+<defName>Beauty</defName><degree></degree>
+<defName>Immunity</defName><degree></degree>
+
+workDisables
+===================
+<workDisables>
+<li></li>
+</workDisables>
+===================
+<li>Animals</li>
+<li>Artistic</li>
+<li>Caring</li>
+<li>Cleaning</li>
+<li>Construction</li> ManulaSkilled
+<li>Cooking</li>
+<li>Crafting</li>
+<li>Firefighting</li>
+<li>Hauling</li>
+<li>Hunting</li>  
+<li>Intellectual</li>
+<li>ManualDumb</li>
+<li>ManualSkilled</li>
+<li>Medicine</li> Caring ?
+<li>Mining</li>
+<li>PlantWork</li>
+<li>Plants</li>
+<li>Shooting</li>
+<li>Social</li>
+<li>Violent</li>
+
+MetaWords
+============
+[PAWN_nameDef] Bobby
+[PAWN_nameFull] Juan Bobby Fisher
+[PAWN_pronoun] he/she
+[PAWN_possessive] his/her
+[PAWN_objective] him/her
+-->
+
