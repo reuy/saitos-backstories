@@ -4,13 +4,48 @@
 <Defs>
    <!-- Anime Characters - Guess the anime character each backstory pertains to! -->
    <AlienRace.BackstoryDef>
+      <defName>SS_Anime_1</defName>
+      <title>Orphan</title>
+      <titleFemale>Orphan</titleFemale>
+      <titleShort>Orphan</titleShort>
+      <titleShortFemale>Orphan</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] lost [PAWN_possessive] parents at a relatively young age. [PAWN_nameDef] would likely never have recovered emotionally, had it not been for a group of rowdy teenagers who had taken [PAWN_objective] in.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+         <li>ImperialCommon</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Social</defName>
+            <amount>3</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defname>Kind</defname>
+            <chance>50</chance>
+         </li>
+         <li>
+            <defname>Wimp</defname>
+            <chance>50</chance>
+         </li>
+      </forcedTraits>
+      <requiredWorkTags>
+         <li>Caring</li>
+      </requiredWorkTags>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
       <defName>SS_Anime_2</defName>
-      <title>Sword Practitioner</title>
-      <titleFemale>Sword Practitioner</titleFemale>
-      <titleShort>Swordsman</titleShort>
-      <titleShortFemale>Swordswoman</titleShortFemale>
-      <baseDescription>NAME spent XER youth studying the blade as a hobby.</baseDescription>
-      <bodyTypeMale>Hulk</bodyTypeMale>
+      <title>Youthful Leader</title>
+      <titleFemale>Youthful Leader</titleFemale>
+      <titleShort>Leader</titleShort>
+      <titleShortFemale>Leader</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] served as the leader of [PAWN_possessive] his circle of friends. They got into many rowdy adventures, and [PAWN_nameDef]'s quick thinking and leadership talent always got them out of a bind.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
       <spawnCategories>
@@ -21,30 +56,34 @@
       <skillGains>
          <li>
             <defName>Melee</defName>
-            <amount>10</amount>
+            <amount>4</amount>
+         </li>
+         <li>
+            <defName>Social</defName>
+            <amount>6</amount>
+         </li>
+         <li>
+            <defName>Intellectual</defName>
+            <amount>-3</amount>
          </li>
       </skillGains>
       <forcedTraits>
          <li>
             <defname>Nimble</defname>
          </li>
-         <li>
-            <defname>Brawler</defname>
-         </li>
       </forcedTraits>
       <requiredWorkTags>
          <li>Violent</li>
+         <li>Caring</li>
       </requiredWorkTags>
    </AlienRace.BackstoryDef>
-   
-   
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_3</defName>
       <title>Sword Practitioner</title>
       <titleFemale>Sword Practitioner</titleFemale>
       <titleShort>Swordsman</titleShort>
       <titleShortFemale>Swordswoman</titleShortFemale>
-      <baseDescription>NAME spent XER youth studying the blade as a hobby.</baseDescription>
+      <baseDescription>[PAWN_nameDef] spent [PAWN_possessive] youth studying the blade as a hobby.</baseDescription>
       <bodyTypeMale>Hulk</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
@@ -71,14 +110,13 @@
          <li>Violent</li>
       </requiredWorkTags>
    </AlienRace.BackstoryDef>
- 
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_4</defName>
       <title>Muscle Idiot</title>
       <titleFemale>Muscle Idiot</titleFemale>
       <titleShort>Muscle Idiot</titleShort>
       <titleShortFemale>Muscle Idiot</titleShortFemale>
-      <baseDescription>NAME had been bullied relentlessly growing up, and took to weightlifting at an early age. While it stopped the bullying, it never earned XER the belonging or respect XE truly craved.</baseDescription>
+      <baseDescription>[PAWN_nameDef] had been bullied relentlessly growing up, and took to weightlifting at an early age. While it stopped the bullying, it never earned [PAWN_objective] the belonging or respect [PAWN_pronoun] truly craved.</baseDescription>
       <bodyTypeMale>Hulk</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
@@ -116,7 +154,7 @@
       <titleFemale>Awkward Kid</titleFemale>
       <titleShort>Awkward Kid</titleShort>
       <titleShortFemale>Awkward Kid</titleShortFemale>
-      <baseDescription>NAME always preferred the company of XER cats growing up. XE never learned to feel fully comfortable in conversations with fellow humans, however.</baseDescription>
+      <baseDescription>[PAWN_nameDef] always preferred the company of [PAWN_possessive] cats growing up. [PAWN_pronoun] never learned to feel fully comfortable in conversations with fellow humans, however.</baseDescription>
       <bodyTypeMale>Thin</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
@@ -149,7 +187,7 @@
       <titleFemale>Fairytale Girl</titleFemale>
       <titleShort>Idealist</titleShort>
       <titleShortFemale>Idealist</titleShortFemale>
-      <baseDescription>[PAWN_nameDef] was an idealistic child who loved to read  fairy tales growing up. Despite XER naivete, [PAWN_pronoun]'s kind heart made [PAWN_objective] well-loved in XER midworld high school.</baseDescription>
+      <baseDescription>[PAWN_nameDef] was an idealistic child who loved to read  fairy tales growing up. Despite [PAWN_possessive] naivete, [PAWN_pronoun]'s kind heart made [PAWN_objective] well-loved in [PAWN_possessive] midworld high school.</baseDescription>
       <bodyTypeMale>Thin</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
@@ -186,7 +224,7 @@
       <titleFemale>Aspiring Astronaut</titleFemale>
       <titleShort>Space Cadet</titleShort>
       <titleShortFemale>Space Cadet</titleShortFemale>
-      <baseDescription>NAME wanted nothing more than to follow in XER mother's footsteps as a space explorer. Unfortunately, while talented, XER inability to master the language of XER world's air traffic control resulted in XER rejection from flight school.</baseDescription>
+      <baseDescription>[PAWN_nameDef] wanted nothing more than to follow in [PAWN_possessive] mother's footsteps as a space explorer. Unfortunately, while talented, [PAWN_possessive] inability to master the language of [PAWN_possessive] world's air traffic control resulted in [PAWN_possessive] rejection from flight school.</baseDescription>
       <bodyTypeMale>Thin</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
@@ -225,7 +263,7 @@
       <titleFemale>Unwanted Daughter</titleFemale>
       <titleShort>Delinquent</titleShort>
       <titleShortFemale>Delinquent</titleShortFemale>
-      <baseDescription>As a child, NAME was forced to compete with XER siblings to prove worthiness to inherit XER family's megacorp. NAME lost these games and was branded a shame to the family, and relentlessly abused and gaslighted. XE found solace from the abuse in fanciful crafting projects.</baseDescription>
+      <baseDescription>As a child, [PAWN_nameDef] was forced to compete with [PAWN_possessive] siblings to prove worthiness to inherit [PAWN_possessive] family's megacorp. [PAWN_nameDef] lost these games and was branded a shame to the family, and relentlessly abused and gaslighted. [PAWN_pronoun] found solace from the abuse in fanciful crafting projects.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
@@ -262,7 +300,7 @@
       <titleFemale>Midworld Prodigy</titleFemale>
       <titleShort>Prodigy</titleShort>
       <titleShortFemale>Prodigy</titleShortFemale>
-      <baseDescription>NAME was always blessed - or cursed - with limited emotion. XE ended up becoming a top-ranking student in XER midworld high school with a wide range of skills, but XER faked emotions tended to turn others away.</baseDescription>
+      <baseDescription>[PAWN_nameDef] was always blessed - or cursed - with limited emotion. [PAWN_pronoun] ended up becoming a top-ranking student in [PAWN_possessive] midworld high school with a wide range of skills, but [PAWN_possessive] faked emotions tended to turn others away.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
@@ -306,7 +344,7 @@
       <titleFemale>Midworld Bookworm</titleFemale>
       <titleShort>Bookworm</titleShort>
       <titleShortFemale>Bookworm</titleShortFemale>
-      <baseDescription>NAME tended to stick to make-believe fantasies, fiction, and non-fiction books during XER childhood. As a result, XE ended up with a wealth of knowledge in many topics, but not a lot of experience socializing.</baseDescription>
+      <baseDescription>[PAWN_nameDef] tended to stick to make-believe fantasies, fiction, and non-fiction books during [PAWN_possessive] childhood. As a result, [PAWN_pronoun] ended up with a wealth of knowledge in many topics, but not a lot of experience socializing.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
@@ -345,59 +383,14 @@
       </workDisables>
       <requiredWorkTags />
    </AlienRace.BackstoryDef>
-<!-- Next Anime-->
-   
-   <AlienRace.BackstoryDef>
-      <defName>SS_Anime_11</defName>
-      <title>VR Swordmaster</title>
-      <titleFemale>VR Swordmaster</titleFemale>
-      <titleShort>Swordsman</titleShort>
-      <titleShortFemale>Swordswoman</titleShortFemale>
-      <baseDescription>NAME suffered from an illness that forced XIM to spend most of XER time in virtual reality. XE spent this time training to become the best swordsman in XER VR MMORPG.</baseDescription>
-      <bodyTypeMale>Male</bodyTypeMale>
-      <bodyTypeFemale>Female</bodyTypeFemale>
-      <slot>Childhood</slot>
-      <spawnCategories>
-         <li>Offworld</li>
-         <li>Outlander</li>
-      </spawnCategories>
-      <skillGains>
-         <li>
-            <defName>Melee</defName>
-            <amount>8</amount>
-         </li>
-      </skillGains>
-      <forcedTraits>
-         <li>
-            <defname>Nimble</defname>
-            <chance>75</chance>
-         </li>
-         <li>
-            <defname>Jogger</defname>
-            <chance>50</chance>
-         </li>
-         <li>
-            <defname>Tough</defname>
-            <chance>50</chance>
-         </li>
-         <li>
-            <defname>Brawler</defname>
-         </li>
-         <li>
-            <defname>Immunity</defname>
-            <degree>-1</degree>
-         </li>
-      </forcedTraits>
-      <requiredWorkTags />
-   </AlienRace.BackstoryDef>
-<!-- Next Anime-->
+   <!-- Next Anime-->
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_20</defName>
       <title>VR Swordmaster</title>
       <titleFemale>VR Swordmaster</titleFemale>
       <titleShort>Swordsman</titleShort>
       <titleShortFemale>Swordswoman</titleShortFemale>
-      <baseDescription>NAME suffered from an illness that forced XIM to spend most of XER time in virtual reality. XE spent this time training to become the best swordsman in XER VR MMORPG.</baseDescription>
+      <baseDescription>[PAWN_nameDef] suffered from an illness that forced [PAWN_objective] to spend most of [PAWN_possessive] time in virtual reality. [PAWN_pronoun] spent this time training to become the best swordsman in [PAWN_possessive] VR MMORPG.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
@@ -432,24 +425,26 @@
             <degree>-1</degree>
          </li>
       </forcedTraits>
-      <requiredWorkTags />
+      <requiredWorkTags>
+         <li>Violent</li>
+      </requiredWorkTags>
    </AlienRace.BackstoryDef>
-<!-- Next Anime-->
+   <!-- Next Anime-->
    <AlienRace.BackstoryDef>
-      <defName>SS_Anime_21</defName>
+      <defName>SS_Anime_30</defName>
       <title>Renegade Prince</title>
       <titleFemale>Renegade Princess</titleFemale>
       <titleShort>Prince</titleShort>
       <titleShortFemale>Princess</titleShortFemale>
-      <baseDescription>NAME ran away from XER royal family and spent years traveling the world, picking up various odd jobs.</baseDescription>
+      <baseDescription>[PAWN_nameDef] ran away from [PAWN_possessive] royal family and spent years traveling the world, picking up various odd jobs.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
       <spawnCategories>
          <li>Offworld</li>
          <li>Outlander</li>
-		 <li>ImperialCommon</li>
-		 <li>ImperialFighter</li>
+         <li>ImperialCommon</li>
+         <li>ImperialFighter</li>
       </spawnCategories>
       <skillGains>
          <li>
@@ -457,56 +452,63 @@
             <amount>3</amount>
          </li>
          <li>
+            <defName>Social</defName>
+            <amount>4</amount>
+         </li>
+         <li>
             <defName>Plants</defName>
             <amount>3</amount>
          </li>
          <li>
             <defName>Animals</defName>
-            <amount>3</amount>
+            <amount>2</amount>
          </li>
          <li>
             <defName>Crafting</defName>
-            <amount>3</amount>
+            <amount>2</amount>
+         </li>
+         <li>
+            <defName>Intellectual</defName>
+            <amount>-2</amount>
          </li>
       </skillGains>
       <requiredWorkTags />
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
-      <defName>SS_Anime_22</defName>
-      <title>Druid Child</title>
-      <titleFemale>Druid Child</titleFemale>
+      <defName>SS_Anime_31</defName>
+      <title>Druid Servant</title>
+      <titleFemale>Druid Servant</titleFemale>
       <titleShort>Druid</titleShort>
       <titleShortFemale>Druid</titleShortFemale>
-      <baseDescription>NAME was a servant assigned to care for a designated.</baseDescription>
+      <baseDescription>[PAWN_nameDef] was designated by [PAWN_possessive] tribe to be a servant of a pre-ordained high-ranking individual. [PAWN_pronoun] served dutifully, but always found time for ideoligious studies.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
       <spawnCategories>
-         <li>Offworld</li>
-         <li>Outlander</li>
-		 <li>ImperialCommon</li>
-		 <li>ImperialFighter</li>
-		 <li>Tribal</li>
+         <li>Tribal</li>
       </spawnCategories>
       <skillGains>
          <li>
             <defName>Construction</defName>
-            <amount>3</amount>
+            <amount>-2</amount>
          </li>
          <li>
             <defName>Plants</defName>
-            <amount>3</amount>
+            <amount>6</amount>
          </li>
          <li>
-            <defName>Animals</defName>
-            <amount>3</amount>
+            <defName>Cooking</defName>
+            <amount>5</amount>
          </li>
          <li>
-            <defName>Crafting</defName>
-            <amount>3</amount>
+            <defName>Social</defName>
+            <amount>4</amount>
          </li>
       </skillGains>
-      <requiredWorkTags />
+      <requiredWorkTags>
+         <li>Caring</li>
+         <li>Cleaning</li>
+      </requiredWorkTags>
    </AlienRace.BackstoryDef>
 </Defs>
 <!--
