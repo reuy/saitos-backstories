@@ -9,7 +9,7 @@
       <titleFemale>Mine Crafter</titleFemale>
       <titleShort>Builder</titleShort>
       <titleShortFemale>Builder</titleShortFemale>
-      <baseDescription>NAME found XIMself alone on a beautiful and mysterious animal world with unexplained knowledge of construction and mining. XE carved out a living for XIMself, and spend XIS spare time building wonderous works of art.</baseDescription>
+      <baseDescription>[PAWN_nameDef] found [PAWN_objective]self alone on a beautiful and mysterious animal world with unexplained knowledge of construction and mining. [PAWN_pronoun] carved out a living for [PAWN_objective]self, and spend [PAWN_possessive] spare time building wonderous works of art.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
@@ -44,8 +44,411 @@
             <amount>5</amount>
          </li>
       </skillGains>
+      <forcedTraits>
+         <li>
+            <defname>Undergrounder</defname>
+         </li>
+         <li>
+            <defname>Brawler</defname>
+            <chance>50</chance>
+         </li>
+      </forcedTraits>
       <requiredWorkTags>
          <li>Violent</li>
+      </requiredWorkTags>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>SS_Game_3</defName>
+      <title>Child Conscript</title>
+      <titleFemale>Child Conscript</titleFemale>
+      <titleShort>Conscript</titleShort>
+      <titleShortFemale>Conscript</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] was such a gifted child, [PAWN_pronoun] would be kidnapped at a young age to be trained as a supersoldier in a distant glitterworld. [PAWN_pronoun] would drill every day in various warfare-related disciplines.</baseDescription>
+      <bodyTypeMale>Hulk</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories />
+      <skillGains>
+         <li>
+            <defName>Melee</defName>
+            <amount>5</amount>
+         </li>
+         <li>
+            <defName>Shooting</defName>
+            <amount>5</amount>
+         </li>
+         <li>
+            <defName>Intellectual</defName>
+            <amount>4</amount>
+         </li>
+         <li>
+            <defName>Social</defName>
+            <amount>-3</amount>
+         </li>
+         <li>
+            <defName>Plants</defName>
+            <amount>5</amount>
+         </li>
+         <li>
+            <defName>Animals</defName>
+            <amount>2</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defname>FastLearner</defname>
+            <chance>50</chance>
+         </li>
+         <li>
+            <defname>Brawler</defname>
+            <chance>50</chance>
+         </li>
+         <li>
+            <defname>Nimble</defname>
+            <chance>50</chance>
+         </li>
+         <li>
+            <defname>Tough</defname>
+            <chance>50</chance>
+         </li>
+         <li>
+            <defname>Ascetic</defname>
+            <chance>50</chance>
+         </li>
+         <li>
+            <defname>SpeedOffset</defname>
+            <degree>2</degree>
+            <chance>50</chance>
+         </li>
+      </forcedTraits>
+      <requiredWorkTags>
+         <li>Violent</li>
+      </requiredWorkTags>
+      <workDisables>
+         <li>Artistic</li>
+      </workDisables>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>SS_Game_4</defName>
+      <title>SPARTAN-II</title>
+      <titleFemale>SPARTAN-II</titleFemale>
+      <titleShort>SPARTAN-II</titleShort>
+      <titleShortFemale>SPARTAN-II</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] received extremely dangerous and experimental augmentations to become a supersoldier. Very few of [PAWN_nameDef]'s cohort survived the process.</baseDescription>
+      <bodyTypeMale>Hulk</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Adulthood</slot>
+      <spawnCategories />
+      <skillGains>
+         <li>
+            <defName>Melee</defName>
+            <amount>7</amount>
+         </li>
+         <li>
+            <defName>Shooting</defName>
+            <amount>7</amount>
+         </li>
+         <li>
+            <defName>Intellectual</defName>
+            <amount>4</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defname>FastLearner</defname>
+            <chance>75</chance>
+         </li>
+         <li>
+            <defname>Brawler</defname>
+            <chance>50</chance>
+         </li>
+         <li>
+            <defname>Nimble</defname>
+         </li>
+         <li>
+            <defname>Tough</defname>
+         </li>
+         <li>
+            <defname>Ascetic</defname>
+            <chance>50</chance>
+         </li>
+         <li>
+            <defname>SpeedOffset</defname>
+            <degree>2</degree>
+         </li>
+      </forcedTraits>
+      <requiredWorkTags>
+         <li>Violent</li>
+         <li>ManualDumb</li>
+      </requiredWorkTags>
+      <workDisables>
+         <li>Artistic</li>
+      </workDisables>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>SS_Game_5</defName>
+      <title>Clone Cadet</title>
+      <titleFemale>Clone Cadet</titleFemale>
+      <titleShort>Clone</titleShort>
+      <titleShortFemale>Clone</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] was a clone, bred to serve in the military of a Glitterworld republic. [PAWN_pronoun] was indoctrinated to prefer a simpler lifestyle, and would drill every day in marksmanship and basic maneuvering.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories />
+      <skillGains>
+         <li>
+            <defName>Melee</defName>
+            <amount>3</amount>
+         </li>
+         <li>
+            <defName>Shooting</defName>
+            <amount>6</amount>
+         </li>
+         <li>
+            <defName>Intellectual</defName>
+            <amount>1</amount>
+         </li>
+         <li>
+            <defName>Social</defName>
+            <amount>-3</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defname>Tough</defname>
+            <chance>50</chance>
+         </li>
+         <li>
+            <defname>Ascetic</defname>
+         </li>
+      </forcedTraits>
+      <requiredWorkTags>
+         <li>Violent</li>
+         <li>ManualDumb</li>
+      </requiredWorkTags>
+      <workDisables>
+         <li>Artistic</li>
+      </workDisables>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>SS_Game_6</defName>
+      <title>Clone Trooper</title>
+      <titleFemale>Clone Trooper</titleFemale>
+      <titleShort>Clone Trooper</titleShort>
+      <titleShortFemale>Clone Trooper</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] graduated training, and entered the service as a the competent rifleman [PAWN_pronoun] was bred to be, trained in marksmanship and field maneuvering.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Adulthood</slot>
+      <spawnCategories />
+      <skillGains>
+         <li>
+            <defName>Melee</defName>
+            <amount>3</amount>
+         </li>
+         <li>
+            <defName>Shooting</defName>
+            <amount>6</amount>
+         </li>
+         <li>
+            <defName>Social</defName>
+            <amount>-3</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defname>Tough</defname>
+            <chance>50</chance>
+         </li>
+         <li>
+            <defname>Ascetic</defname>
+            <chance>50</chance>
+         </li>
+      </forcedTraits>
+      <requiredWorkTags>
+         <li>Violent</li>
+         <li>ManualDumb</li>
+      </requiredWorkTags>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>SS_Game_6</defName>
+      <title>Clone Sniper</title>
+      <titleFemale>Clone Sniper</titleFemale>
+      <titleShort>Clone Sniper</titleShort>
+      <titleShortFemale>Clone Sniper</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] graduated training, and entered the service as a the eagle-eyed sniper [PAWN_pronoun] was bred to be, trained in wilderness survival, reconnaissance, and marksmanship.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Adulthood</slot>
+      <spawnCategories />
+      <skillGains>
+         <li>
+            <defName>Shooting</defName>
+            <amount>8</amount>
+         </li>
+         <li>
+            <defName>Plants</defName>
+            <amount>5</amount>
+         </li>
+         <li>
+            <defName>Animals</defName>
+            <amount>4</amount>
+         </li>
+         <li>
+            <defName>Social</defName>
+            <amount>-3</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defname>SpeedOffset</defname>
+            <degree>2</degree>
+         </li>
+         <li>
+            <defname>Sniper</defname>
+         </li>
+      </forcedTraits>
+      <requiredWorkTags>
+         <li>Violent</li>
+         <li>ManualDumb</li>
+      </requiredWorkTags>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>SS_Game_7</defName>
+      <title>Clone Engineer</title>
+      <titleFemale>Clone Engineer</titleFemale>
+      <titleShort>Clone Engineer</titleShort>
+      <titleShortFemale>Clone Engineer</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] graduated training, and entered the service as a the capable combat engineer [PAWN_pronoun] was bred to be, trained in battlefield construction, explosives, and equipment operation.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Adulthood</slot>
+      <spawnCategories />
+      <skillGains>
+         <li>
+            <defName>Shooting</defName>
+            <amount>3</amount>
+         </li>
+         <li>
+            <defName>Construction</defName>
+            <amount>5</amount>
+         </li>
+         <li>
+            <defName>Crafting</defName>
+            <amount>4</amount>
+         </li>
+         <li>
+            <defName>Social</defName>
+            <amount>-3</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defname>SpeedOffset</defname>
+            <degree>2</degree>
+         </li>
+         <li>
+            <defname>Sniper</defname>
+         </li>
+      </forcedTraits>
+      <requiredWorkTags>
+         <li>Violent</li>
+         <li>ManualDumb</li>
+         <li>Construction</li>
+         <li>Crafting</li>
+      </requiredWorkTags>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>SS_Game_7</defName>
+      <title>Clone Shocktrooper</title>
+      <titleFemale>Clone Shocktrooper</titleFemale>
+      <titleShort>Clone Heavy</titleShort>
+      <titleShortFemale>Clone Heavy</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] graduated training, and entered the service as a the capable shocktrooper [PAWN_pronoun] was bred to be, with a more aggressive temperament than [PAWN_possessive] compatriots.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Adulthood</slot>
+      <spawnCategories />
+      <skillGains>
+         <li>
+            <defName>Shooting</defName>
+            <amount>5</amount>
+         </li>
+         <li>
+            <defName>Melee</defName>
+            <amount>6</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defname>Ascetic</defname>
+            <chance>50</chance>
+         </li>
+         <li>
+            <defname>Tough</defname>
+         </li>
+         <li>
+            <defname>Bloodlust</defname>
+         </li>
+      </forcedTraits>
+      <requiredWorkTags>
+         <li>Violent</li>
+         <li>ManualDumb</li>
+         <li>Construction</li>
+         <li>Crafting</li>
+      </requiredWorkTags>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>SS_Game_8</defName>
+      <title>ARC Trooper</title>
+      <titleFemale>ARC Trooper</titleFemale>
+      <titleShort>ARC Trooper</titleShort>
+      <titleShortFemale>ARC Trooper</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] served as an elite trooper, held to a higher performance standard than [PAWN_possessive] compatriots.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Adulthood</slot>
+      <spawnCategories />
+      <skillGains>
+         <li>
+            <defName>Shooting</defName>
+            <amount>7</amount>
+         </li>
+         <li>
+            <defName>Melee</defName>
+            <amount>5</amount>
+         </li>
+         <li>
+            <defName>Plants</defName>
+            <amount>4</amount>
+         </li>
+         <li>
+            <defName>Social</defName>
+            <amount>-3</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defname>SpeedOffset</defname>
+            <degree>2</degree>
+         </li>
+         <li>
+            <defname>Ascetic</defname>
+         </li>
+         <li>
+            <defname>Tough</defname>
+         </li>
+         <li>
+            <defname>Nerves</defname>
+            <degree>2</degree>
+         </li>
+      </forcedTraits>
+      <requiredWorkTags>
+         <li>Violent</li>
+         <li>ManualDumb</li>
+         <li>Construction</li>
+         <li>Crafting</li>
       </requiredWorkTags>
    </AlienRace.BackstoryDef>
 </Defs>
