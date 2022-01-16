@@ -406,7 +406,6 @@
          <li>Social</li>
       </requiredWorkTags>
    </AlienRace.BackstoryDef>
-</Defs>
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-11</defName>
       <title>Child Actor</title>
@@ -521,12 +520,12 @@
             <defname>Priest</defname>
          </li>
       </forcedTraits>
-     <requiredWorkTags>
+      <requiredWorkTags>
          <li>Caring</li>
       </requiredWorkTags>
-	<workDisables>
-		<li>Violent</li>
-	</workDisables>
+      <workDisables>
+         <li>Violent</li>
+      </workDisables>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-12</defName>
@@ -559,15 +558,15 @@
          </li>
          <li>
             <defName>NaturalMood</defName>
-			<degree>2</degree>
+            <degree>2</degree>
          </li>
       </forcedTraits>
       <requiredWorkTags>
          <li>Caring</li>
       </requiredWorkTags>
-	<workDisables>
-		<li>Violent</li>
-	</workDisables>
+      <workDisables>
+         <li>Violent</li>
+      </workDisables>
    </AlienRace.BackstoryDef>
 </Defs>
 <!--
