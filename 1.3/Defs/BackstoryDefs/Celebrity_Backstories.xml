@@ -32,23 +32,23 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>Industriousness</defname>
+            <defName>Industriousness</defName>
             <degree>2</degree>
          </li>
          <li>
-            <defname>SpeedOffset</defname>
+            <defName>SpeedOffset</defName>
             <degree>2</degree>
          </li>
          <li>
-            <defname>Neat</defname>
+            <defName>Neat</defName>
          </li>
          <li>
-            <defname>Neurotic</defname>
+            <defName>Neurotic</defName>
             <degree>2</degree>
          </li>
       </forcedTraits>
       <requiredWorkTags>
-         <li>Construction</li>
+         <li>Constructing</li>
          <li>Crafting</li>
       </requiredWorkTags>
    </AlienRace.BackstoryDef>
@@ -87,11 +87,11 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>Industriousness</defname>
+            <defName>Industriousness</defName>
             <degree>2</degree>
          </li>
          <li>
-            <defname>Abrasive</defname>
+            <defName>Abrasive</defName>
             <chance>50</chance>
          </li>
       </forcedTraits>
@@ -122,7 +122,7 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>Abrasive</defname>
+            <defName>Abrasive</defName>
             <chance>25</chance>
          </li>
       </forcedTraits>
@@ -214,7 +214,7 @@
       </skillGains>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
-      <defName>SS_Celeb-6</defName>
+      <defName>SS_Celeb-7</defName>
       <title>Information Admiral</title>
       <titleFemale>Information Admiral</titleFemale>
       <titleShort>Admiral</titleShort>
@@ -265,15 +265,15 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>Nimble</defname>
+            <defName>Nimble</defName>
             <chance>50</chance>
          </li>
          <li>
-            <defname>Jogger</defname>
+            <defName>Jogger</defName>
             <chance>50</chance>
          </li>
          <li>
-            <defname>Tough</defname>
+            <defName>Tough</defName>
             <chance>50</chance>
          </li>
       </forcedTraits>
@@ -313,16 +313,16 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>Tough</defname>
+            <defName>Tough</defName>
             <chance>25</chance>
          </li>
          <li>
-            <defname>SpeedOffset</defname>
+            <defName>SpeedOffset</defName>
             <degree>2</degree>
             <chance>25</chance>
          </li>
          <li>
-            <defname>Ascetic</defname>
+            <defName>Ascetic</defName>
             <chance>25</chance>
          </li>
       </forcedTraits>
@@ -330,7 +330,7 @@
          <li>Plants</li>
          <li>Animals</li>
          <li>Cooking</li>
-         <li>Construction</li>
+         <li>Constructing</li>
          <li>Crafting</li>
       </requiredWorkTags>
    </AlienRace.BackstoryDef>
@@ -369,7 +369,7 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>Ascetic</defname>
+            <defName>Ascetic</defName>
             <chance>50</chance>
          </li>
       </forcedTraits>
@@ -377,7 +377,7 @@
          <li>Plants</li>
          <li>Animals</li>
          <li>Cooking</li>
-         <li>Construction</li>
+         <li>Constructing</li>
          <li>Crafting</li>
       </requiredWorkTags>
    </AlienRace.BackstoryDef>
@@ -433,7 +433,7 @@
       </skillGains>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
-      <defName>SS_Celeb-11</defName>
+      <defName>SS_Celeb-12</defName>
       <title>Martial Artist</title>
       <titleFemale>Martial Artist</titleFemale>
       <titleShort>Master</titleShort>
@@ -459,23 +459,23 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>Nimble</defname>
+            <defName>Nimble</defName>
             <chance>50</chance>
          </li>
          <li>
-            <defname>Jogger</defname>
+            <defName>Jogger</defName>
             <chance>50</chance>
          </li>
          <li>
-            <defname>Tough</defname>
+            <defName>Tough</defName>
             <chance>50</chance>
          </li>
          <li>
-            <defname>Ascetic</defname>
+            <defName>Ascetic</defName>
             <chance>50</chance>
          </li>
          <li>
-            <defname>Monk</defname>
+            <defName>Monk</defName>
          </li>
       </forcedTraits>
       <requiredWorkTags>
@@ -483,7 +483,7 @@
       </requiredWorkTags>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
-      <defName>SS_Celeb-11</defName>
+      <defName>SS_Celeb-13</defName>
       <title>Young Minister</title>
       <titleFemale>Young Minister</titleFemale>
       <titleShort>Minister</titleShort>
@@ -509,15 +509,15 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>Kind</defname>
+            <defName>Kind</defName>
             <chance>50</chance>
          </li>
          <li>
-            <defname>Ascetic</defname>
+            <defName>Ascetic</defName>
             <chance>50</chance>
          </li>
          <li>
-            <defname>Priest</defname>
+            <defName>Priest</defName>
          </li>
       </forcedTraits>
       <requiredWorkTags>
@@ -528,7 +528,7 @@
       </workDisables>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
-      <defName>SS_Celeb-12</defName>
+      <defName>SS_Celeb-14</defName>
       <title>Childrens' Show Host</title>
       <titleFemale>Childrens' Show Host</titleFemale>
       <titleShort>TV Host</titleShort>
@@ -554,7 +554,7 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>Kind</defname>
+            <defName>Kind</defName>
          </li>
          <li>
             <defName>NaturalMood</defName>
@@ -598,31 +598,31 @@
 
 		<forcedTraits>
 			<li>
-				<defname>Beauty</defname>
+				<defName>Beauty</defName>
 				<degree>2</degree>
 				<chance>50</chance>
 			</li>
 			<li>
-				<defname>Gay</defname>
+				<defName>Gay</defName>
 				<chance>50</chance>
 			</li>
 			<li>
-				<defname>Psychopath</defname>
+				<defName>Psychopath</defName>
 			</li>
 		</forcedTraits>
 
 		<disallowedTraits>
 			<li>
-				<defname>SpeedOffset</defname>
+				<defName>SpeedOffset</defName>
 				<degree>2</degree>
 				<chance>50</chance>
 			</li>
 			<li>
-				<defname>Kind</defname>
+				<defName>Kind</defName>
 				<chance>50</chance>
 			</li>
 			<li>
-				<defname>Bloodlust</defname>
+				<defName>Bloodlust</defName>
 			</li>
 		</disallowedTraits>
 
@@ -743,26 +743,27 @@ workDisables
 <li></li>
 </workDisables>
 ===================
-<li>Animals</li>
-<li>Artistic</li>
-<li>Caring</li>
-<li>Cleaning</li>
-<li>Construction</li> ManulaSkilled
-<li>Cooking</li>
-<li>Crafting</li>
-<li>Firefighting</li>
-<li>Hauling</li>
-<li>Hunting</li>  
-<li>Intellectual</li>
+<li>None</li>
 <li>ManualDumb</li>
 <li>ManualSkilled</li>
-<li>Medicine</li> Caring ?
-<li>Mining</li>
-<li>PlantWork</li>
-<li>Plants</li>
-<li>Shooting</li>
-<li>Social</li>
 <li>Violent</li>
+<li>Caring</li>
+<li>Social</li>
+<li>Commoner</li>
+<li>Intellectual</li>
+<li>Animals</li>
+<li>Artistic</li>
+<li>Crafting</li>
+<li>Cooking</li>
+<li>Firefighting</li>
+<li>Cleaning</li>
+<li>Hauling</li>
+<li>PlantWork</li>
+<li>Mining</li>
+<li>Hunting</li>
+<li>Constructing</li>
+<li>Shooting</li>
+<li>AllWork</li>
 
 MetaWords
 ============

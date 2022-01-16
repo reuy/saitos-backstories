@@ -44,10 +44,10 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>Undergrounder</defname>
+            <defName>Undergrounder</defName>
          </li>
          <li>
-            <defname>Brawler</defname>
+            <defName>Brawler</defName>
             <chance>50</chance>
          </li>
       </forcedTraits>
@@ -94,27 +94,27 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>FastLearner</defname>
+            <defName>FastLearner</defName>
             <chance>50</chance>
          </li>
          <li>
-            <defname>Brawler</defname>
+            <defName>Brawler</defName>
             <chance>50</chance>
          </li>
          <li>
-            <defname>Nimble</defname>
+            <defName>Nimble</defName>
             <chance>50</chance>
          </li>
          <li>
-            <defname>Tough</defname>
+            <defName>Tough</defName>
             <chance>50</chance>
          </li>
          <li>
-            <defname>Ascetic</defname>
+            <defName>Ascetic</defName>
             <chance>50</chance>
          </li>
          <li>
-            <defname>SpeedOffset</defname>
+            <defName>SpeedOffset</defName>
             <degree>2</degree>
             <chance>50</chance>
          </li>
@@ -153,25 +153,25 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>FastLearner</defname>
+            <defName>FastLearner</defName>
             <chance>75</chance>
          </li>
          <li>
-            <defname>Brawler</defname>
+            <defName>Brawler</defName>
             <chance>50</chance>
          </li>
          <li>
-            <defname>Nimble</defname>
+            <defName>Nimble</defName>
          </li>
          <li>
-            <defname>Tough</defname>
+            <defName>Tough</defName>
          </li>
          <li>
-            <defname>Ascetic</defname>
+            <defName>Ascetic</defName>
             <chance>50</chance>
          </li>
          <li>
-            <defname>SpeedOffset</defname>
+            <defName>SpeedOffset</defName>
             <degree>2</degree>
          </li>
       </forcedTraits>
@@ -214,11 +214,11 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>Tough</defname>
+            <defName>Tough</defName>
             <chance>50</chance>
          </li>
          <li>
-            <defname>Ascetic</defname>
+            <defName>Ascetic</defName>
          </li>
       </forcedTraits>
       <requiredWorkTags>
@@ -256,11 +256,11 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>Tough</defname>
+            <defName>Tough</defName>
             <chance>50</chance>
          </li>
          <li>
-            <defname>Ascetic</defname>
+            <defName>Ascetic</defName>
             <chance>50</chance>
          </li>
       </forcedTraits>
@@ -270,7 +270,7 @@
       </requiredWorkTags>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
-      <defName>SS_Game_6</defName>
+      <defName>SS_Game_7</defName>
       <title>Clone Sniper</title>
       <titleFemale>Clone Sniper</titleFemale>
       <titleShort>Clone Sniper</titleShort>
@@ -300,11 +300,11 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>SpeedOffset</defname>
+            <defName>SpeedOffset</defName>
             <degree>2</degree>
          </li>
          <li>
-            <defname>Sniper</defname>
+            <defName>Sniper</defName>
          </li>
       </forcedTraits>
       <requiredWorkTags>
@@ -313,7 +313,7 @@
       </requiredWorkTags>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
-      <defName>SS_Game_7</defName>
+      <defName>SS_Game_8</defName>
       <title>Clone Engineer</title>
       <titleFemale>Clone Engineer</titleFemale>
       <titleShort>Clone Engineer</titleShort>
@@ -343,22 +343,22 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>SpeedOffset</defname>
+            <defName>SpeedOffset</defName>
             <degree>2</degree>
          </li>
          <li>
-            <defname>Sniper</defname>
+            <defName>Sniper</defName>
          </li>
       </forcedTraits>
       <requiredWorkTags>
          <li>Violent</li>
          <li>ManualDumb</li>
-         <li>Construction</li>
+         <li>Constructing</li>
          <li>Crafting</li>
       </requiredWorkTags>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
-      <defName>SS_Game_7</defName>
+      <defName>SS_Game_9</defName>
       <title>Clone Shocktrooper</title>
       <titleFemale>Clone Shocktrooper</titleFemale>
       <titleShort>Clone Heavy</titleShort>
@@ -380,25 +380,25 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>Ascetic</defname>
+            <defName>Ascetic</defName>
             <chance>50</chance>
          </li>
          <li>
-            <defname>Tough</defname>
+            <defName>Tough</defName>
          </li>
          <li>
-            <defname>Bloodlust</defname>
+            <defName>Bloodlust</defName>
          </li>
       </forcedTraits>
       <requiredWorkTags>
          <li>Violent</li>
          <li>ManualDumb</li>
-         <li>Construction</li>
+         <li>Constructing</li>
          <li>Crafting</li>
       </requiredWorkTags>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
-      <defName>SS_Game_8</defName>
+      <defName>SS_Game_10</defName>
       <title>ARC Trooper</title>
       <titleFemale>ARC Trooper</titleFemale>
       <titleShort>ARC Trooper</titleShort>
@@ -428,24 +428,24 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>SpeedOffset</defname>
+            <defName>SpeedOffset</defName>
             <degree>2</degree>
          </li>
          <li>
-            <defname>Ascetic</defname>
+            <defName>Ascetic</defName>
          </li>
          <li>
-            <defname>Tough</defname>
+            <defName>Tough</defName>
          </li>
          <li>
-            <defname>Nerves</defname>
+            <defName>Nerves</defName>
             <degree>2</degree>
          </li>
       </forcedTraits>
       <requiredWorkTags>
          <li>Violent</li>
          <li>ManualDumb</li>
-         <li>Construction</li>
+         <li>Constructing</li>
          <li>Crafting</li>
       </requiredWorkTags>
    </AlienRace.BackstoryDef>
@@ -479,31 +479,31 @@
 
 		<forcedTraits>
 			<li>
-				<defname>Beauty</defname>
+				<defName>Beauty</defName>
 				<degree>2</degree>
 				<chance>50</chance>
 			</li>
 			<li>
-				<defname>Gay</defname>
+				<defName>Gay</defName>
 				<chance>50</chance>
 			</li>
 			<li>
-				<defname>Psychopath</defname>
+				<defName>Psychopath</defName>
 			</li>
 		</forcedTraits>
 
 		<disallowedTraits>
 			<li>
-				<defname>SpeedOffset</defname>
+				<defName>SpeedOffset</defName>
 				<degree>2</degree>
 				<chance>50</chance>
 			</li>
 			<li>
-				<defname>Kind</defname>
+				<defName>Kind</defName>
 				<chance>50</chance>
 			</li>
 			<li>
-				<defname>Bloodlust</defname>
+				<defName>Bloodlust</defName>
 			</li>
 		</disallowedTraits>
 
@@ -625,26 +625,27 @@ workDisables
 <li></li>
 </workDisables>
 ===================
-<li>Animals</li>
-<li>Artistic</li>
-<li>Caring</li>
-<li>Cleaning</li>
-<li>Construction</li> ManulaSkilled
-<li>Cooking</li>
-<li>Crafting</li>
-<li>Firefighting</li>
-<li>Hauling</li>
-<li>Hunting</li>  
-<li>Intellectual</li>
+<li>None</li>
 <li>ManualDumb</li>
 <li>ManualSkilled</li>
-<li>Medicine</li> Caring ?
-<li>Mining</li>
-<li>PlantWork</li>
-<li>Plants</li>
-<li>Shooting</li>
-<li>Social</li>
 <li>Violent</li>
+<li>Caring</li>
+<li>Social</li>
+<li>Commoner</li>
+<li>Intellectual</li>
+<li>Animals</li>
+<li>Artistic</li>
+<li>Crafting</li>
+<li>Cooking</li>
+<li>Firefighting</li>
+<li>Cleaning</li>
+<li>Hauling</li>
+<li>PlantWork</li>
+<li>Mining</li>
+<li>Hunting</li>
+<li>Constructing</li>
+<li>Shooting</li>
+<li>AllWork</li>
 
 MetaWords
 ============

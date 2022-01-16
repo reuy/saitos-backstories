@@ -24,11 +24,11 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>Kind</defname>
+            <defName>Kind</defName>
             <chance>50</chance>
          </li>
          <li>
-            <defname>Wimp</defname>
+            <defName>Wimp</defName>
             <chance>50</chance>
          </li>
       </forcedTraits>
@@ -67,7 +67,7 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>Nimble</defname>
+            <defName>Nimble</defName>
          </li>
       </forcedTraits>
       <requiredWorkTags>
@@ -98,10 +98,10 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>Nimble</defname>
+            <defName>Nimble</defName>
          </li>
          <li>
-            <defname>Brawler</defname>
+            <defName>Brawler</defName>
          </li>
       </forcedTraits>
       <requiredWorkTags>
@@ -135,10 +135,10 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>Tough</defname>
+            <defName>Tough</defName>
          </li>
          <li>
-            <defname>Brawler</defname>
+            <defName>Brawler</defName>
          </li>
       </forcedTraits>
       <femaleCommonality>1</femaleCommonality>
@@ -205,10 +205,10 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>Kind</defname>
+            <defName>Kind</defName>
          </li>
          <li>
-            <defname>Wimp</defname>
+            <defName>Wimp</defName>
             <chance>50</chance>
          </li>
       </forcedTraits>
@@ -247,7 +247,7 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>SlowLearner</defname>
+            <defName>SlowLearner</defName>
             <chance>25</chance>
          </li>
       </forcedTraits>
@@ -282,11 +282,12 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>Volatile</defname>
+            <defName>Nerves</defName>
+			<degree>-1</degree>
             <chance>50</chance>
          </li>
          <li>
-            <defname>TorturedArtist</defname>
+            <defName>TorturedArtist</defName>
             <chance>50</chance>
          </li>
       </forcedTraits>
@@ -326,11 +327,11 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>Iron-willed</defname>
+            <defName>Iron-willed</defName>
             <chance>50</chance>
          </li>
          <li>
-            <defname>TooSmart</defname>
+            <defName>TooSmart</defName>
             <chance>50</chance>
          </li>
       </forcedTraits>
@@ -404,22 +405,22 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defname>Nimble</defname>
+            <defName>Nimble</defName>
             <chance>75</chance>
          </li>
          <li>
-            <defname>Jogger</defname>
+            <defName>Jogger</defName>
             <chance>50</chance>
          </li>
          <li>
-            <defname>Tough</defname>
+            <defName>Tough</defName>
             <chance>50</chance>
          </li>
          <li>
-            <defname>Brawler</defname>
+            <defName>Brawler</defName>
          </li>
          <li>
-            <defname>Immunity</defname>
+            <defName>Immunity</defName>
             <degree>-1</degree>
          </li>
       </forcedTraits>
@@ -538,31 +539,31 @@
 
 		<forcedTraits>
 			<li>
-				<defname>Beauty</defname>
+				<defName>Beauty</defName>
 				<degree>2</degree>
 				<chance>50</chance>
 			</li>
 			<li>
-				<defname>Gay</defname>
+				<defName>Gay</defName>
 				<chance>50</chance>
 			</li>
 			<li>
-				<defname>Psychopath</defname>
+				<defName>Psychopath</defName>
 			</li>
 		</forcedTraits>
 
 		<disallowedTraits>
 			<li>
-				<defname>SpeedOffset</defname>
+				<defName>SpeedOffset</defName>
 				<degree>2</degree>
 				<chance>50</chance>
 			</li>
 			<li>
-				<defname>Kind</defname>
+				<defName>Kind</defName>
 				<chance>50</chance>
 			</li>
 			<li>
-				<defname>Bloodlust</defname>
+				<defName>Bloodlust</defName>
 			</li>
 		</disallowedTraits>
 
@@ -684,26 +685,27 @@ workDisables
 <li></li>
 </workDisables>
 ===================
-<li>Animals</li>
-<li>Artistic</li>
-<li>Caring</li>
-<li>Cleaning</li>
-<li>Construction</li> ManulaSkilled
-<li>Cooking</li>
-<li>Crafting</li>
-<li>Firefighting</li>
-<li>Hauling</li>
-<li>Hunting</li>  
-<li>Intellectual</li>
+<li>None</li>
 <li>ManualDumb</li>
 <li>ManualSkilled</li>
-<li>Medicine</li> Caring ?
-<li>Mining</li>
-<li>PlantWork</li>
-<li>Plants</li>
-<li>Shooting</li>
-<li>Social</li>
 <li>Violent</li>
+<li>Caring</li>
+<li>Social</li>
+<li>Commoner</li>
+<li>Intellectual</li>
+<li>Animals</li>
+<li>Artistic</li>
+<li>Crafting</li>
+<li>Cooking</li>
+<li>Firefighting</li>
+<li>Cleaning</li>
+<li>Hauling</li>
+<li>PlantWork</li>
+<li>Mining</li>
+<li>Hunting</li>
+<li>Constructing</li>
+<li>Shooting</li>
+<li>AllWork</li>
 
 MetaWords
 ============

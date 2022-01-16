@@ -1,459 +1,570 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<!-- Purgeworld characters - Hyperspecialized and broken pawns -->
-	
-	<AlienRace.BackstoryDef>
-		<defName>PW_Cleaner</defName>
-		<title>Purgeworld Janitor</title>
-		<titleFemale>Purgeworld Janitor</titleFemale>
-		<titleShort>Janitor</titleShort>
-		<titleShortFemale>Janitor</titleShortFemale>
-		<baseDescription>[PAWN_nameDef] grew up on a world that forced individuals to compete to become the best janitors and cleaning experts. The losers would be drowned to death in the fecal matter of the winners. This instilled in [PAWN_nameDef] an excellent work ethic for cleaning, while scarring [PAWN_objective] greatly.
-		</baseDescription>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>Offworld</li>
-			<li>Outlander</li>
-			<li>ImperialCommon</li>
-		</spawnCategories>
-		<forcedTraits>
-			<li>
-				<defname>Industriousness</defname>
-				<degree>2</degree>
-			</li>
-			<li>
-				<defname>SpeedOffset</defname>
-				<degree>2</degree>
-			</li>
-			<li>
-				<defname>Neat</defname>
-			</li>
-			<li>
-				<defname>Neurotic</defname>
-				<degree>2</degree>
-			</li>
-		</forcedTraits>
-    <workAllows>
-        <li>Cleaning</li>
-    </workAllows>
-	</AlienRace.BackstoryDef>
-
-	<AlienRace.BackstoryDef>
-		<defName>PW_Shooter</defName>
-		<title>Purgeworld Shooter</title>
-		<titleFemale>Purgeworld Shooter</titleFemale>
-		<titleShort>Shooter</titleShort>
-		<titleShortFemale>Shooter</titleShortFemale>
-		<baseDescription>[PAWN_nameDef] grew up on a world that forced all inhabitants to fight regularly to the death with ranged weapons only. [PAWN_nameDef] survived the fights as one of the planet's sharpest shots, but the ordeal scarred [PAWN_objective] greatly.
-		</baseDescription>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>Offworld</li>
-			<li>Outlander</li>
-			<li>ImperialCommon</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Shooting</defName>
-				<amount>17</amount>
-			</li>
-		</skillGains>
-		<forcedTraits>
-			<li>
-				<defname>SpeedOffset</defname>
-				<degree>2</degree>
-			</li>
-			<li>
-				<defname>Bloodlust</defname>
-			</li>
-			<li>
-				<defName>ShootingAccuracy</defName>
-				<degree>-1</degree>
-			</li>
-			<li>
-				<defname>Abrasive</defname>
-			</li>
-		</forcedTraits>
-    <workAllows>
-        <li>Violent</li>
-		<li>ManualDumb</li>
-    </workAllows>
-	</AlienRace.BackstoryDef>
-	
-	<AlienRace.BackstoryDef>
-		<defName>PW_Fighter</defName>
-		<title>Purgeworld Brawler</title>
-		<titleFemale>Purgeworld Brawler</titleFemale>
-		<titleShort>Brawler</titleShort>
-		<titleShortFemale>Brawler</titleShortFemale>
-		<baseDescription>[PAWN_nameDef] grew up on a world that forced all inhabitants to fight regularly to the death. [PAWN_nameDef] survived the fights as one of the planet's bloodthirstiest killers, but the ordeal scarred [PAWN_objective] greatly.
-		</baseDescription>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>Offworld</li>
-			<li>Outlander</li>
-			<li>ImperialCommon</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Melee</defName>
-				<amount>17</amount>
-			</li>
-		</skillGains>
-		<forcedTraits>
-			<li>
-				<defname>Tough</defname>
-			</li>
-			<li>
-				<defname>SpeedOffset</defname>
-				<degree>2</degree>
-			</li>
-			<li>
-				<defname>Bloodlust</defname>
-			</li>
-			<li>
-				<defname>Brawler</defname>
-			</li>
-			<li>
-				<defname>Abrasive</defname>
-			</li>
-		</forcedTraits>
-    <workAllows>
-        <li>Violent</li>
-    </workAllows>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef>
-		<defName>PW_Builder</defName>
-		<title>Purgeworld Architect</title>
-		<titleFemale>Purgeworld Architect</titleFemale>
-		<titleShort>Architect</titleShort>
-		<titleShortFemale>Architect</titleShortFemale>
-		<baseDescription>[PAWN_nameDef] grew up on a world that forced all children to compete in design and building contests, where losers would be sentenced to die in artificial buiilding collapses. Surviving the trials made [PAWN_nameDef] an extremely skilled builder, at the cost of scarring [PAWN_objective] greatly.
-		</baseDescription>
-		<bodyTypeMale>Hulk</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>Offworld</li>
-			<li>Outlander</li>
-			<li>ImperialCommon</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Construction</defName>
-				<amount>17</amount>
-			</li>
-		</skillGains>
-		<forcedTraits>
-			<li>
-				<defname>Industriousness</defname>
-				<degree>2</degree>
-			</li>
-			<li>
-				<defname>Neurotic</defname>
-				<degree>2</degree>
-			</li>
-		</forcedTraits>
-    <workAllows>
-		<li>Construction</li>
-		<li>Hauling</li>
-    </workAllows>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef>
-		<defName>PW_Miner</defName>
-		<title>Purgeworld Miner</title>
-		<titleFemale>Purgeworld Miner</titleFemale>
-		<titleShort>Miner</titleShort>
-		<titleShortFemale>Miner</titleShortFemale>
-		<baseDescription>[PAWN_nameDef] grew up in a cave Purgeworld, where children would be forced every day of their lives to dig out of artificially-placed stone tombs or perish. Surviving the tombs made [PAWN_nameDef] an extremely skilled miner, at the cost of scarring [PAWN_objective] greatly.
-		</baseDescription>
-		<bodyTypeMale>Hulk</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>Offworld</li>
-			<li>Outlander</li>
-			<li>ImperialCommon</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Mining</defName>
-				<amount>17</amount>
-			</li>
-		</skillGains>
-		<forcedTraits>
-			<li>
-				<defname>Industriousness</defname>
-				<degree>2</degree>
-			</li>
-			<li>
-				<defname>Neurotic</defname>
-				<degree>2</degree>
-			</li>
-			<li>
-				<defname>Undergrounder</defname>
-				<degree>2</degree>
-			</li>
-		</forcedTraits>
-    <workAllows>
-		<li>Mining</li>
-		<li>Hauling</li>
-    </workAllows>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef>
-		<defName>PW_Chef</defName>
-		<title>Purgeworld Chef</title>
-		<titleFemale>Purgeworld Chef</titleFemale>
-		<titleShort>Chef</titleShort>
-		<titleShortFemale>Chef</titleShortFemale>
-		<baseDescription>[PAWN_nameDef] grew up on a world that forced all children to compete in cooking contests, where losers would be cooked alive to serve to judges by the runners up. This taught [PAWN_nameDef] a great deal about preparing all kinds of dishes, while scarring [PAWN_objective] greatly.
-		</baseDescription>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>Offworld</li>
-			<li>Outlander</li>
-			<li>ImperialCommon</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Cooking</defName>
-				<amount>17</amount>
-			</li>
-		</skillGains>
-		<forcedTraits>
-			<li>
-				<defname>Industriousness</defname>
-				<degree>2</degree>
-			</li>
-			<li>
-				<defname>Cannibal</defname>
-			</li>
-			<li>
-				<defname>Gourmand</defname>
-			</li>
-			<li>
-				<defname>Neurotic</defname>
-				<degree>2</degree>
-			</li>
-		</forcedTraits>
-    <workAllows>
-        <li>Cooking</li>
-		<li>Cleaning</li>
-		<li>Animals</li>
-		<li>Plants</li>
-		<li>Hauling</li>
-    </workAllows>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef>
-		<defName>PW_Grower</defName>
-		<title>Purgeworld Farmer</title>
-		<titleFemale>Purgeworld Farmer</titleFemale>
-		<titleShort>Farmer</titleShort>
-		<titleShortFemale>Farmer</titleShortFemale>
-		<baseDescription>[PAWN_nameDef] grew up on an agricultural Purgeworld, where all citizens were forced to meet monthly farming quotas or be forcibly converted into fertilizer. [PAWN_nameDef] learned quickly the intricacies of sowing and harvesting crops, at the cost of scarring [PAWN_objective] greatly.
-		</baseDescription>
-		<bodyTypeMale>Hulk</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>Offworld</li>
-			<li>Outlander</li>
-			<li>ImperialCommon</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Mining</defName>
-				<amount>17</amount>
-			</li>
-		</skillGains>
-		<forcedTraits>
-			<li>
-				<defname>Industriousness</defname>
-				<degree>2</degree>
-			</li>
-			<li>
-				<defname>Neurotic</defname>
-				<degree>2</degree>
-			</li>
-		</forcedTraits>
-    <workAllows>
-		<li>PlantWork</li>
-		<li>Plants</li>
-		<li>Hauling</li>
-    </workAllows>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef>
-		<defName>PW_Rancher</defName>
-		<title>Purgeworld Rancher</title>
-		<titleFemale>Purgeworld Rancher</titleFemale>
-		<titleShort>Rancher</titleShort>
-		<titleShortFemale>Rancher</titleShortFemale>
-		<baseDescription>[PAWN_nameDef] grew up on an agricultural Purgeworld, where all citizens were forced to meet monthly ranching quotas or be fed alive to the animals of those who survived. [PAWN_nameDef] learned quickly the intricacies of rearing and taming animals, at the cost of scarring [PAWN_objective] greatly.
-		</baseDescription>
-		<bodyTypeMale>Hulk</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>Offworld</li>
-			<li>Outlander</li>
-			<li>ImperialCommon</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Animals</defName>
-				<amount>17</amount>
-			</li>
-		</skillGains>
-		<forcedTraits>
-			<li>
-				<defname>Industriousness</defname>
-				<degree>2</degree>
-			</li>
-			<li>
-				<defname>Neurotic</defname>
-				<degree>2</degree>
-			</li>
-		</forcedTraits>
-    <workAllows>
-		<li>Animals</li>
-		<li>Plants</li>
-		<li>Hauling</li>
-    </workAllows>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef>
-		<defName>PW_Crafter</defName>
-		<title>Purgeworld Crafter</title>
-		<titleFemale>Purgeworld Crafter</titleFemale>
-		<titleShort>Crafter</titleShort>
-		<titleShortFemale>Crafter</titleShortFemale>
-		<baseDescription>[PAWN_nameDef] grew up on an engineering Purgeworld, where all citizens were forced to compete in various design contests, and the losers would be killed by machines designed by the winners. [PAWN_nameDef] learned quickly the intricacies of crafting, at the cost of scarring [PAWN_objective] greatly.
-		</baseDescription>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>Offworld</li>
-			<li>Outlander</li>
-			<li>ImperialCommon</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Crafting</defName>
-				<amount>17</amount>
-			</li>
-			<li>
-				<defName>Construction</defName>
-				<amount>6</amount>
-			</li>
-		</skillGains>
-		<forcedTraits>
-			<li>
-				<defname>Industriousness</defname>
-				<degree>2</degree>
-			</li>
-			<li>
-				<defname>Neurotic</defname>
-				<degree>2</degree>
-			</li>
-			<li>
-				<defname>TorturedArtist</defname>
-			</li>
-		</forcedTraits>
-    <workAllows>
-		<li>Crafting</li>
-		<li>Construction</li>
-		<li>Hauling</li>
-    </workAllows>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef>
-		<defName>PW_Artist</defName>
-		<title>Purgeworld Artist</title>
-		<titleFemale>Purgeworld Artist</titleFemale>
-		<titleShort>Artist</titleShort>
-		<titleShortFemale>Artist</titleShortFemale>
-		<baseDescription>[PAWN_nameDef] grew up on an artistic Purgeworld, where all citizens were forced to compete in various art contests, and those whose art was judged below their peers would forcibly converted into biomass for use in art projects. [PAWN_nameDef]'s art proved to be among the best, but the ordeal scarred [PAWN_objective] greatly.
-		</baseDescription>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>Offworld</li>
-			<li>Outlander</li>
-			<li>ImperialCommon</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Medicine</defName>
-				<amount>17</amount>
-			</li>
-		</skillGains>
-		<forcedTraits>
-			<li>
-				<defname>Industriousness</defname>
-				<degree>2</degree>
-			</li>
-			<li>
-				<defname>Neurotic</defname>
-				<degree>2</degree>
-			</li>
-			<li>
-				<defname>TorturedArtist</defname>
-				<degree>2</degree>
-			</li>
-		</forcedTraits>
-    <workAllows>
-		<li>Artistic</li>
-    </workAllows>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef>
-		<defName>PW_Doctor</defName>
-		<title>Purgeworld Doctor</title>
-		<titleFemale>Doctor</titleFemale>
-		<titleShort>Doctor</titleShort>
-		<titleShortFemale>Farmer</titleShortFemale>
-		<baseDescription>[PAWN_nameDef] grew up on a Purgeworld obsessed with the human form, where all citizens were forced to study human anatomy, or be dissected alive. The constant studies under threat of slow, agonizing death gave [PAWN_nameDef] an intimate knowledge of the human body, while scarring [PAWN_objective] mentally.
-		</baseDescription>
-		<bodyTypeMale>Hulk</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<slot>Childhood</slot>
-		<spawnCategories>
-			<li>Offworld</li>
-			<li>Outlander</li>
-			<li>ImperialCommon</li>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<defName>Medicine</defName>
-				<amount>17</amount>
-			</li>
-		</skillGains>
-		<forcedTraits>
-			<li>
-				<defname>Industriousness</defname>
-				<degree>2</degree>
-			</li>
-			<li>
-				<defname>Neurotic</defname>
-				<degree>2</degree>
-			</li>
-		</forcedTraits>
-    <workAllows>
-		<li>Medicine</li>
-		<li>Intellectual</li>
-    </workAllows>
-	</AlienRace.BackstoryDef>
-	
-
+   <!-- Purgeworld characters - Hyperspecialized and broken pawns -->
+   <AlienRace.BackstoryDef>
+      <defName>PW_Cleaner</defName>
+      <title>Purgeworld Janitor</title>
+      <titleFemale>Purgeworld Janitor</titleFemale>
+      <titleShort>Janitor</titleShort>
+      <titleShortFemale>Janitor</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] grew up on a world that forced individuals to compete to become the best janitors and cleaning experts. The losers would be drowned to death in the fecal matter of the winners. This instilled in [PAWN_nameDef] an excellent work ethic for cleaning, while scarring [PAWN_objective] greatly.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+         <li>ImperialCommon</li>
+      </spawnCategories>
+      <forcedTraits>
+         <li>
+            <defName>Industriousness</defName>
+            <degree>2</degree>
+         </li>
+         <li>
+            <defName>SpeedOffset</defName>
+            <degree>2</degree>
+         </li>
+         <li>
+            <defName>Neat</defName>
+         </li>
+         <li>
+            <defName>Neurotic</defName>
+            <degree>2</degree>
+         </li>
+      </forcedTraits>
+      <workDisables>
+         <li>ManualSkilled</li>
+         <li>Violent</li>
+         <li>Caring</li>
+         <li>Social</li>
+         <li>Intellectual</li>
+         <li>Animals</li>
+         <li>Artistic</li>
+         <li>Crafting</li>
+         <li>Cooking</li>
+         <li>Firefighting</li>
+         <li>Hauling</li>
+         <li>PlantWork</li>
+         <li>Mining</li>
+         <li>Hunting</li>
+         <li>Constructing</li>
+         <li>Shooting</li>
+      </workDisables>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>PW_Shooter</defName>
+      <title>Purgeworld Shooter</title>
+      <titleFemale>Purgeworld Shooter</titleFemale>
+      <titleShort>Shooter</titleShort>
+      <titleShortFemale>Shooter</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] grew up on a world that forced all inhabitants to fight regularly to the death with ranged weapons only. [PAWN_nameDef] survived the fights as one of the planet's sharpest shots, but the ordeal scarred [PAWN_objective] greatly.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+         <li>ImperialCommon</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Shooting</defName>
+            <amount>17</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defName>SpeedOffset</defName>
+            <degree>2</degree>
+         </li>
+         <li>
+            <defName>Bloodlust</defName>
+         </li>
+         <li>
+            <defName>ShootingAccuracy</defName>
+            <degree>-1</degree>
+         </li>
+         <li>
+            <defName>Abrasive</defName>
+         </li>
+      </forcedTraits>
+      <workDisables>
+         <li>ManualSkilled</li>
+         <li>Caring</li>
+         <li>Social</li>
+         <li>Intellectual</li>
+         <li>Animals</li>
+         <li>Artistic</li>
+         <li>Crafting</li>
+         <li>Cooking</li>
+         <li>Firefighting</li>
+         <li>Cleaning</li>
+         <li>Hauling</li>
+         <li>PlantWork</li>
+         <li>Mining</li>
+         <li>Hunting</li>
+         <li>Constructing</li>
+      </workDisables>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>PW_Fighter</defName>
+      <title>Purgeworld Brawler</title>
+      <titleFemale>Purgeworld Brawler</titleFemale>
+      <titleShort>Brawler</titleShort>
+      <titleShortFemale>Brawler</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] grew up on a world that forced all inhabitants to fight regularly to the death. [PAWN_nameDef] survived the fights as one of the planet's bloodthirstiest killers, but the ordeal scarred [PAWN_objective] greatly.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+         <li>ImperialCommon</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Melee</defName>
+            <amount>17</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defName>Tough</defName>
+         </li>
+         <li>
+            <defName>SpeedOffset</defName>
+            <degree>2</degree>
+         </li>
+         <li>
+            <defName>Bloodlust</defName>
+         </li>
+         <li>
+            <defName>Brawler</defName>
+         </li>
+         <li>
+            <defName>Abrasive</defName>
+         </li>
+      </forcedTraits>
+      <workDisables>
+         <li>ManualSkilled</li>
+         <li>Caring</li>
+         <li>Social</li>
+         <li>Intellectual</li>
+         <li>Animals</li>
+         <li>Artistic</li>
+         <li>Crafting</li>
+         <li>Cooking</li>
+         <li>Firefighting</li>
+         <li>Cleaning</li>
+         <li>Hauling</li>
+         <li>PlantWork</li>
+         <li>Mining</li>
+         <li>Constructing</li>
+         <li>Shooting</li>
+      </workDisables>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>PW_Builder</defName>
+      <title>Purgeworld Architect</title>
+      <titleFemale>Purgeworld Architect</titleFemale>
+      <titleShort>Architect</titleShort>
+      <titleShortFemale>Architect</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] grew up on a world that forced all children to compete in design and building contests, where losers would be sentenced to die in artificial buiilding collapses. Surviving the trials made [PAWN_nameDef] an extremely skilled builder, at the cost of scarring [PAWN_objective] greatly.</baseDescription>
+      <bodyTypeMale>Hulk</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+         <li>ImperialCommon</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Construction</defName>
+            <amount>17</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defName>Industriousness</defName>
+            <degree>2</degree>
+         </li>
+         <li>
+            <defName>Neurotic</defName>
+            <degree>2</degree>
+         </li>
+      </forcedTraits>
+      <workAllows>
+         <li>Constructing</li>
+         <li>Hauling</li>
+      </workAllows>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>PW_Miner</defName>
+      <title>Purgeworld Miner</title>
+      <titleFemale>Purgeworld Miner</titleFemale>
+      <titleShort>Miner</titleShort>
+      <titleShortFemale>Miner</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] grew up in a cave Purgeworld, where children would be forced every day of their lives to dig out of artificially-placed stone tombs or perish. Surviving the tombs made [PAWN_nameDef] an extremely skilled miner, at the cost of scarring [PAWN_objective] greatly.</baseDescription>
+      <bodyTypeMale>Hulk</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+         <li>ImperialCommon</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Mining</defName>
+            <amount>17</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defName>Industriousness</defName>
+            <degree>2</degree>
+         </li>
+         <li>
+            <defName>Neurotic</defName>
+            <degree>2</degree>
+         </li>
+         <li>
+            <defName>Undergrounder</defName>
+         </li>
+      </forcedTraits>
+      <workDisables>
+         <li>Violent</li>
+         <li>Caring</li>
+         <li>Social</li>
+         <li>Intellectual</li>
+         <li>Animals</li>
+         <li>Artistic</li>
+         <li>Crafting</li>
+         <li>Cooking</li>
+         <li>Firefighting</li>
+         <li>Cleaning</li>
+         <li>Hauling</li>
+         <li>PlantWork</li>
+         <li>Hunting</li>
+         <li>Constructing</li>
+         <li>Shooting</li>
+      </workDisables>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>PW_Chef</defName>
+      <title>Purgeworld Chef</title>
+      <titleFemale>Purgeworld Chef</titleFemale>
+      <titleShort>Chef</titleShort>
+      <titleShortFemale>Chef</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] grew up on a world that forced all children to compete in cooking contests, where losers would be cooked alive to serve to judges by the runners up. This taught [PAWN_nameDef] a great deal about preparing all kinds of dishes, while scarring [PAWN_objective] greatly.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+         <li>ImperialCommon</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Cooking</defName>
+            <amount>17</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defName>Industriousness</defName>
+            <degree>2</degree>
+         </li>
+         <li>
+            <defName>Cannibal</defName>
+         </li>
+         <li>
+            <defName>Gourmand</defName>
+         </li>
+         <li>
+            <defName>Neurotic</defName>
+            <degree>2</degree>
+         </li>
+      </forcedTraits>
+      <workDisables>
+         <li>ManualDumb</li>
+         <li>Violent</li>
+         <li>Caring</li>
+         <li>Social</li>
+         <li>Commoner</li>
+         <li>Intellectual</li>
+         <li>Artistic</li>
+         <li>Crafting</li>
+         <li>Hauling</li>
+         <li>Mining</li>
+         <li>Constructing</li>
+         <li>Shooting</li>
+      </workDisables>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>PW_Grower</defName>
+      <title>Purgeworld Farmer</title>
+      <titleFemale>Purgeworld Farmer</titleFemale>
+      <titleShort>Farmer</titleShort>
+      <titleShortFemale>Farmer</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] grew up on an agricultural Purgeworld, where all citizens were forced to meet monthly farming quotas or be forcibly converted into fertilizer. [PAWN_nameDef] learned quickly the intricacies of sowing and harvesting crops, at the cost of scarring [PAWN_objective] greatly.</baseDescription>
+      <bodyTypeMale>Hulk</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+         <li>ImperialCommon</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Mining</defName>
+            <amount>17</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defName>Industriousness</defName>
+            <degree>2</degree>
+         </li>
+         <li>
+            <defName>Neurotic</defName>
+            <degree>2</degree>
+         </li>
+      </forcedTraits>
+      <workDisables>
+         <li>Violent</li>
+         <li>Caring</li>
+         <li>Social</li>
+         <li>Commoner</li>
+         <li>Intellectual</li>
+         <li>Artistic</li>
+         <li>Crafting</li>
+         <li>Cooking</li>
+         <li>Firefighting</li>
+         <li>Cleaning</li>
+         <li>Mining</li>
+         <li>Hunting</li>
+         <li>Constructing</li>
+         <li>Shooting</li>
+      </workDisables>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>PW_Rancher</defName>
+      <title>Purgeworld Rancher</title>
+      <titleFemale>Purgeworld Rancher</titleFemale>
+      <titleShort>Rancher</titleShort>
+      <titleShortFemale>Rancher</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] grew up on an agricultural Purgeworld, where all citizens were forced to meet monthly ranching quotas or be fed alive to the animals of those who survived. [PAWN_nameDef] learned quickly the intricacies of rearing and taming animals, at the cost of scarring [PAWN_objective] greatly.</baseDescription>
+      <bodyTypeMale>Hulk</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+         <li>ImperialCommon</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Animals</defName>
+            <amount>17</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defName>Industriousness</defName>
+            <degree>2</degree>
+         </li>
+         <li>
+            <defName>Neurotic</defName>
+            <degree>2</degree>
+         </li>
+      </forcedTraits>
+      <workDisables>
+         <li>ManualSkilled</li>
+         <li>Violent</li>
+         <li>Caring</li>
+         <li>Social</li>
+         <li>Intellectual</li>
+         <li>Artistic</li>
+         <li>Crafting</li>
+         <li>Cooking</li>
+         <li>Firefighting</li>
+         <li>Cleaning</li>
+         <li>Hauling</li>
+         <li>Mining</li>
+         <li>Constructing</li>
+         <li>Shooting</li>
+      </workDisables>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>PW_Crafter</defName>
+      <title>Purgeworld Crafter</title>
+      <titleFemale>Purgeworld Crafter</titleFemale>
+      <titleShort>Crafter</titleShort>
+      <titleShortFemale>Crafter</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] grew up on an engineering Purgeworld, where all citizens were forced to compete in various design contests, and the losers would be killed by machines designed by the winners. [PAWN_nameDef] learned quickly the intricacies of crafting, at the cost of scarring [PAWN_objective] greatly.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+         <li>ImperialCommon</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Crafting</defName>
+            <amount>17</amount>
+         </li>
+         <li>
+            <defName>Construction</defName>
+            <amount>6</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defName>Industriousness</defName>
+            <degree>2</degree>
+         </li>
+         <li>
+            <defName>Neurotic</defName>
+            <degree>2</degree>
+         </li>
+         <li>
+            <defName>TorturedArtist</defName>
+         </li>
+      </forcedTraits>
+      <workDisables>
+         <li>Violent</li>
+         <li>Caring</li>
+         <li>Social</li>
+         <li>Commoner</li>
+         <li>Intellectual</li>
+         <li>Animals</li>
+         <li>Artistic</li>
+         <li>Cooking</li>
+         <li>Firefighting</li>
+         <li>Cleaning</li>
+         <li>Hauling</li>
+         <li>PlantWork</li>
+         <li>Mining</li>
+         <li>Hunting</li>
+         <li>Shooting</li>
+      </workDisables>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>PW_Artist</defName>
+      <title>Purgeworld Artist</title>
+      <titleFemale>Purgeworld Artist</titleFemale>
+      <titleShort>Artist</titleShort>
+      <titleShortFemale>Artist</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] grew up on an artistic Purgeworld, where all citizens were forced to compete in various art contests, and those whose art was judged below their peers would forcibly converted into biomass for use in art projects. [PAWN_nameDef]'s art proved to be among the best, but the ordeal scarred [PAWN_objective] greatly.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+         <li>ImperialCommon</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Medicine</defName>
+            <amount>17</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defName>Industriousness</defName>
+            <degree>2</degree>
+         </li>
+         <li>
+            <defName>Neurotic</defName>
+            <degree>2</degree>
+         </li>
+         <li>
+            <defName>TorturedArtist</defName>
+            <degree>2</degree>
+         </li>
+      </forcedTraits>
+      <workDisables>
+         <li>ManualDumb</li>
+         <li>ManualSkilled</li>
+         <li>Violent</li>
+         <li>Caring</li>
+         <li>Social</li>
+         <li>Commoner</li>
+         <li>Intellectual</li>
+         <li>Animals</li>
+         <li>Crafting</li>
+         <li>Cooking</li>
+         <li>Firefighting</li>
+         <li>Cleaning</li>
+         <li>Hauling</li>
+         <li>PlantWork</li>
+         <li>Mining</li>
+         <li>Hunting</li>
+         <li>Constructing</li>
+         <li>Shooting</li>
+      </workDisables>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>PW_Doctor</defName>
+      <title>Purgeworld Doctor</title>
+      <titleFemale>Doctor</titleFemale>
+      <titleShort>Doctor</titleShort>
+      <titleShortFemale>Farmer</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] grew up on a Purgeworld obsessed with the human form, where all citizens were forced to study human anatomy, or be dissected alive. The constant studies under threat of slow, agonizing death gave [PAWN_nameDef] an intimate knowledge of the human body, while scarring [PAWN_objective] mentally.</baseDescription>
+      <bodyTypeMale>Hulk</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+         <li>ImperialCommon</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Medicine</defName>
+            <amount>17</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defName>Industriousness</defName>
+            <degree>2</degree>
+         </li>
+         <li>
+            <defName>Neurotic</defName>
+            <degree>2</degree>
+         </li>
+      </forcedTraits>
+      <workDisables>
+         <li>ManualDumb</li>
+         <li>ManualSkilled</li>
+         <li>Violent</li>
+         <li>Social</li>
+         <li>Commoner</li>
+         <li>Animals</li>
+         <li>Artistic</li>
+         <li>Crafting</li>
+         <li>Cooking</li>
+         <li>Firefighting</li>
+         <li>Cleaning</li>
+         <li>Hauling</li>
+         <li>PlantWork</li>
+         <li>Mining</li>
+         <li>Hunting</li>
+         <li>Constructing</li>
+         <li>Shooting</li>
+      </workDisables>
+   </AlienRace.BackstoryDef>
 </Defs>
-	<!--
+<!--
 
 	<AlienRace.BackstoryDef>
 		<defName>myDefName</defName>
@@ -482,31 +593,31 @@
 
 		<forcedTraits>
 			<li>
-				<defname>Beauty</defname>
+				<defName>Beauty</defName>
 				<degree>2</degree>
 				<chance>50</chance>
 			</li>
 			<li>
-				<defname>Gay</defname>
+				<defName>Gay</defName>
 				<chance>50</chance>
 			</li>
 			<li>
-				<defname>Psychopath</defname>
+				<defName>Psychopath</defName>
 			</li>
 		</forcedTraits>
 
 		<disallowedTraits>
 			<li>
-				<defname>SpeedOffset</defname>
+				<defName>SpeedOffset</defName>
 				<degree>2</degree>
 				<chance>50</chance>
 			</li>
 			<li>
-				<defname>Kind</defname>
+				<defName>Kind</defName>
 				<chance>50</chance>
 			</li>
 			<li>
-				<defname>Bloodlust</defname>
+				<defName>Bloodlust</defName>
 			</li>
 		</disallowedTraits>
 
@@ -627,26 +738,27 @@ workDisables
 <li></li>
 </workDisables>
 ===================
-<li>Animals</li>
-<li>Artistic</li>
-<li>Caring</li>
-<li>Cleaning</li>
-<li>Construction</li> ManulaSkilled
-<li>Cooking</li>
-<li>Crafting</li>
-<li>Firefighting</li>
-<li>Hauling</li>
-<li>Hunting</li>  
-<li>Intellectual</li>
+<li>None</li>
 <li>ManualDumb</li>
 <li>ManualSkilled</li>
-<li>Medicine</li> Caring ?
-<li>Mining</li>
-<li>PlantWork</li>
-<li>Plants</li>
-<li>Shooting</li>
-<li>Social</li>
 <li>Violent</li>
+<li>Caring</li>
+<li>Social</li>
+<li>Commoner</li>
+<li>Intellectual</li>
+<li>Animals</li>
+<li>Artistic</li>
+<li>Crafting</li>
+<li>Cooking</li>
+<li>Firefighting</li>
+<li>Cleaning</li>
+<li>Hauling</li>
+<li>PlantWork</li>
+<li>Mining</li>
+<li>Hunting</li>
+<li>Constructing</li>
+<li>Shooting</li>
+<li>AllWork</li>
 
 MetaWords
 ============
@@ -656,3 +768,4 @@ MetaWords
 [PAWN_possessive] XIS his/her
 [PAWN_objective] XER him/her
 -->
+
