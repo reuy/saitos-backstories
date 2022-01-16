@@ -253,7 +253,7 @@
          </li>
          <li>
             <defName>SpeedOffset</defName>
-			<degree>2</degree>
+            <degree>2</degree>
             <chance>50</chance>
          </li>
          <li>
@@ -422,7 +422,7 @@
       <titleFemale>Martial Artist</titleFemale>
       <titleShort>Master</titleShort>
       <titleShortFemale>Master</titleShortFemale>
-      <baseDescription>[PAWN_nameDef]'s opened a reknowned school to teach martial arts. [PAWN_pronoun] searched XIS world tirelessly for the secrets of both martial arts and enlightenment.</baseDescription>
+      <baseDescription>[PAWN_nameDef]'s opened a reknowned school to teach martial arts. [PAWN_pronoun] searched [PAWN_possessive] world tirelessly for the secrets of both martial arts and enlightenment.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Adulthood</slot>
@@ -448,7 +448,7 @@
          </li>
          <li>
             <defName>SpeedOffset</defName>
-			<degree>2</degree>
+            <degree>2</degree>
             <chance>50</chance>
          </li>
          <li>
