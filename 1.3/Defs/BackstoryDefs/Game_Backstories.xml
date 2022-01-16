@@ -303,9 +303,6 @@
             <defName>SpeedOffset</defName>
             <degree>2</degree>
          </li>
-         <li>
-            <defName>Sniper</defName>
-         </li>
       </forcedTraits>
       <requiredWorkTags>
          <li>Violent</li>

@@ -233,10 +233,6 @@
       </spawnCategories>
       <skillGains>
          <li>
-            <defName />
-            <amount>-3</amount>
-         </li>
-         <li>
             <defName>Intellectual</defName>
             <amount>6</amount>
          </li>
@@ -327,7 +323,8 @@
       </skillGains>
       <forcedTraits>
          <li>
-            <defName>Iron-willed</defName>
+            <defName>Nerves</defName>
+			<degree>2</degree>
             <chance>50</chance>
          </li>
          <li>
@@ -409,7 +406,8 @@
             <chance>75</chance>
          </li>
          <li>
-            <defName>Jogger</defName>
+            <defName>SpeedOffset</defName>
+			<degree>2</degree>
             <chance>50</chance>
          </li>
          <li>

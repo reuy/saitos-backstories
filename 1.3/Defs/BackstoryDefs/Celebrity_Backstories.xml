@@ -30,23 +30,6 @@
             <amount>6</amount>
          </li>
       </skillGains>
-      <forcedTraits>
-         <li>
-            <defName>Industriousness</defName>
-            <degree>2</degree>
-         </li>
-         <li>
-            <defName>SpeedOffset</defName>
-            <degree>2</degree>
-         </li>
-         <li>
-            <defName>Neat</defName>
-         </li>
-         <li>
-            <defName>Neurotic</defName>
-            <degree>2</degree>
-         </li>
-      </forcedTraits>
       <requiredWorkTags>
          <li>Constructing</li>
          <li>Crafting</li>
@@ -239,7 +222,7 @@
       </requiredWorkTags>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
-      <defName>SS_Celeb-7</defName>
+      <defName>SS_Celeb-8</defName>
       <title>Sports Player</title>
       <titleFemale>Sports Player</titleFemale>
       <titleShort>Athlete</titleShort>
@@ -269,7 +252,8 @@
             <chance>50</chance>
          </li>
          <li>
-            <defName>Jogger</defName>
+            <defName>SpeedOffset</defName>
+			<degree>2</degree>
             <chance>50</chance>
          </li>
          <li>
@@ -279,7 +263,7 @@
       </forcedTraits>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
-      <defName>SS_Celeb-8</defName>
+      <defName>SS_Celeb-9</defName>
       <title>Young Specialist</title>
       <titleFemale>Young Specialist</titleFemale>
       <titleShort>Specialist</titleShort>
@@ -327,7 +311,7 @@
          </li>
       </forcedTraits>
       <requiredWorkTags>
-         <li>Plants</li>
+         <li>PlantWork</li>
          <li>Animals</li>
          <li>Cooking</li>
          <li>Constructing</li>
@@ -335,7 +319,7 @@
       </requiredWorkTags>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
-      <defName>SS_Celeb-9</defName>
+      <defName>SS_Celeb-10</defName>
       <title>Survival Expert</title>
       <titleFemale>Survival Expert</titleFemale>
       <titleShort>Survivalist</titleShort>
@@ -374,7 +358,7 @@
          </li>
       </forcedTraits>
       <requiredWorkTags>
-         <li>Plants</li>
+         <li>PlantWork</li>
          <li>Animals</li>
          <li>Cooking</li>
          <li>Constructing</li>
@@ -382,7 +366,7 @@
       </requiredWorkTags>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
-      <defName>SS_Celeb-10</defName>
+      <defName>SS_Celeb-11</defName>
       <title>Salesman</title>
       <titleFemale>Salesman</titleFemale>
       <titleShort>Salesman</titleShort>
@@ -407,7 +391,7 @@
       </requiredWorkTags>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
-      <defName>SS_Celeb-11</defName>
+      <defName>SS_Celeb-12</defName>
       <title>Child Actor</title>
       <titleFemale>Child Actor</titleFemale>
       <titleShort>Actor</titleShort>
@@ -433,7 +417,7 @@
       </skillGains>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
-      <defName>SS_Celeb-12</defName>
+      <defName>SS_Celeb-13</defName>
       <title>Martial Artist</title>
       <titleFemale>Martial Artist</titleFemale>
       <titleShort>Master</titleShort>
@@ -463,7 +447,8 @@
             <chance>50</chance>
          </li>
          <li>
-            <defName>Jogger</defName>
+            <defName>SpeedOffset</defName>
+			<degree>2</degree>
             <chance>50</chance>
          </li>
          <li>
@@ -474,16 +459,13 @@
             <defName>Ascetic</defName>
             <chance>50</chance>
          </li>
-         <li>
-            <defName>Monk</defName>
-         </li>
       </forcedTraits>
       <requiredWorkTags>
-         <li>Melee</li>
+         <li>Violent</li>
       </requiredWorkTags>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
-      <defName>SS_Celeb-13</defName>
+      <defName>SS_Celeb-14</defName>
       <title>Young Minister</title>
       <titleFemale>Young Minister</titleFemale>
       <titleShort>Minister</titleShort>
@@ -516,9 +498,6 @@
             <defName>Ascetic</defName>
             <chance>50</chance>
          </li>
-         <li>
-            <defName>Priest</defName>
-         </li>
       </forcedTraits>
       <requiredWorkTags>
          <li>Caring</li>
@@ -528,7 +507,7 @@
       </workDisables>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
-      <defName>SS_Celeb-14</defName>
+      <defName>SS_Celeb-15</defName>
       <title>Childrens' Show Host</title>
       <titleFemale>Childrens' Show Host</titleFemale>
       <titleShort>TV Host</titleShort>

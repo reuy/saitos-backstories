@@ -26,15 +26,11 @@
             <degree>2</degree>
          </li>
          <li>
-            <defName>Neat</defName>
-         </li>
-         <li>
             <defName>Neurotic</defName>
             <degree>2</degree>
          </li>
       </forcedTraits>
       <workDisables>
-         <li>ManualSkilled</li>
          <li>Violent</li>
          <li>Caring</li>
          <li>Social</li>
@@ -90,7 +86,6 @@
          </li>
       </forcedTraits>
       <workDisables>
-         <li>ManualSkilled</li>
          <li>Caring</li>
          <li>Social</li>
          <li>Intellectual</li>
@@ -147,7 +142,6 @@
          </li>
       </forcedTraits>
       <workDisables>
-         <li>ManualSkilled</li>
          <li>Caring</li>
          <li>Social</li>
          <li>Intellectual</li>
@@ -195,10 +189,23 @@
             <degree>2</degree>
          </li>
       </forcedTraits>
-      <workAllows>
-         <li>Constructing</li>
-         <li>Hauling</li>
-      </workAllows>
+	<workDisables>
+		<li>ManualDumb</li>
+		<li>Violent</li>
+		<li>Caring</li>
+		<li>Social</li>
+		<li>Intellectual</li>
+		<li>Animals</li>
+		<li>Artistic</li>
+		<li>Cooking</li>
+		<li>Firefighting</li>
+		<li>Cleaning</li>
+		<li>Hauling</li>
+		<li>PlantWork</li>
+		<li>Mining</li>
+		<li>Hunting</li>
+		<li>Shooting</li>
+	</workDisables>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>PW_Miner</defName>
@@ -294,7 +301,6 @@
          <li>Violent</li>
          <li>Caring</li>
          <li>Social</li>
-         <li>Commoner</li>
          <li>Intellectual</li>
          <li>Artistic</li>
          <li>Crafting</li>
@@ -321,7 +327,7 @@
       </spawnCategories>
       <skillGains>
          <li>
-            <defName>Mining</defName>
+            <defName>Plants</defName>
             <amount>17</amount>
          </li>
       </skillGains>
@@ -339,7 +345,6 @@
          <li>Violent</li>
          <li>Caring</li>
          <li>Social</li>
-         <li>Commoner</li>
          <li>Intellectual</li>
          <li>Artistic</li>
          <li>Crafting</li>
@@ -384,7 +389,6 @@
          </li>
       </forcedTraits>
       <workDisables>
-         <li>ManualSkilled</li>
          <li>Violent</li>
          <li>Caring</li>
          <li>Social</li>
@@ -442,7 +446,6 @@
          <li>Violent</li>
          <li>Caring</li>
          <li>Social</li>
-         <li>Commoner</li>
          <li>Intellectual</li>
          <li>Animals</li>
          <li>Artistic</li>
@@ -473,7 +476,7 @@
       </spawnCategories>
       <skillGains>
          <li>
-            <defName>Medicine</defName>
+            <defName>Artistic</defName>
             <amount>17</amount>
          </li>
       </skillGains>
@@ -488,16 +491,12 @@
          </li>
          <li>
             <defName>TorturedArtist</defName>
-            <degree>2</degree>
          </li>
       </forcedTraits>
       <workDisables>
-         <li>ManualDumb</li>
-         <li>ManualSkilled</li>
          <li>Violent</li>
          <li>Caring</li>
          <li>Social</li>
-         <li>Commoner</li>
          <li>Intellectual</li>
          <li>Animals</li>
          <li>Crafting</li>
@@ -545,10 +544,8 @@
       </forcedTraits>
       <workDisables>
          <li>ManualDumb</li>
-         <li>ManualSkilled</li>
          <li>Violent</li>
          <li>Social</li>
-         <li>Commoner</li>
          <li>Animals</li>
          <li>Artistic</li>
          <li>Crafting</li>
