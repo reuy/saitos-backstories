@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
-  <version>3.4.91</version>
-  <manifestUri>https://raw.githubusercontent.com/fluffy-mods/MedicalTab/1.2/About/Manifest.xml</manifestUri>
-  <downloadUri>https://github.com/fluffy-mods/MedicalTab/releases/v3.4.91</downloadUri>
+  <version>1.0.0</version>
+  <downloadUri>https://github.com/reuy/saitos-backstories</downloadUri>
 </Manifest>
