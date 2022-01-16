@@ -1,5 +1,3 @@
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
    <!-- Makes the Glitterworld Pawnkinds use Vanilla Charge Rifles. -->
@@ -20,13 +18,13 @@
             <li Class="PatchOperationAdd">
                <xpath>/ThingDefs/ThingDef[defName = "VWE_Gun_Musket"]/weaponTags</xpath>
                <value>
-                  <li>SteamerRifle</li>
+                  <label>SteamerRifle</label>
                </value>
             </li>
             <li Class="PatchOperationAdd">
                <xpath>/ThingDefs/ThingDef[defName = "VWE_Gun_Flintlock"]/weaponTags</xpath>
                <value>
-                  <li>SteamerPistol</li>
+                  <label>SteamerPistol</label>
                </value>
             </li>
             <Operation Class="PatchOperationFindMod">
@@ -38,25 +36,25 @@
                   <li Class="PatchOperationAdd">
                      <xpath>/ThingDefs/ThingDef[defName = "VWE_Gun_ChargeSniperRifle"]/weaponTags</xpath>
                      <value>
-                        <li>SpacerSniper</li>
+                        <label>SpacerSniper</label>
                      </value>
                   </li>
                   <li Class="PatchOperationAdd">
                      <xpath>/ThingDefs/ThingDef[defName = "VWE_Bullet_ChargeMinigun"]/weaponTags</xpath>
                      <value>
-                        <li>SpacerHeavy</li>
+                        <label>SpacerHeavy</label>
                      </value>
                   </li>
                   <li Class="PatchOperationAdd">
                      <xpath>/ThingDefs/ThingDef[defName = "VWE_Gun_ChargeShotgun"]/weaponTags</xpath>
                      <value>
-                        <li>SpacerShotgun</li>
+                        <label>SpacerShotgun</label>
                      </value>
                   </li>
                   <li Class="PatchOperationAdd">
                      <xpath>/ThingDefs/ThingDef[defName = "VWE_Bullet_ChargePistol"]/weaponTags</xpath>
                      <value>
-                        <li>SpacerPistol</li>
+                        <label>SpacerPistol</label>
                      </value>
                   </li>
                </match>
