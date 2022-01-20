@@ -3,10 +3,10 @@
    <!-- Anime Characters - Guess the anime character each backstory pertains to! -->
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_1</defName>
-      <title>Orphan</title>
-      <titleFemale>Orphan</titleFemale>
-      <titleShort>Orphan</titleShort>
-      <titleShortFemale>Orphan</titleShortFemale>
+      <title>orphan</title>
+      <titleFemale>orphan</titleFemale>
+      <titleShort>orphan</titleShort>
+      <titleShortFemale>orphan</titleShortFemale>
       <baseDescription>[PAWN_nameDef] lost [PAWN_possessive] parents at a relatively young age. [PAWN_nameDef] would likely never have recovered emotionally, had it not been for a group of rowdy teenagers who had taken [PAWN_objective] in.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
@@ -38,10 +38,10 @@
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_2</defName>
-      <title>Youthful Leader</title>
-      <titleFemale>Youthful Leader</titleFemale>
-      <titleShort>Leader</titleShort>
-      <titleShortFemale>Leader</titleShortFemale>
+      <title>youthful leader</title>
+      <titleFemale>youthful leader</titleFemale>
+      <titleShort>leader</titleShort>
+      <titleShortFemale>leader</titleShortFemale>
       <baseDescription>[PAWN_nameDef] served as the leader of [PAWN_possessive] his circle of friends. They got into many rowdy adventures, and [PAWN_nameDef]'s quick thinking and leadership talent always got them out of a bind.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
@@ -110,10 +110,10 @@
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_4</defName>
-      <title>Muscle Idiot</title>
-      <titleFemale>Muscle Idiot</titleFemale>
-      <titleShort>Muscle Idiot</titleShort>
-      <titleShortFemale>Muscle Idiot</titleShortFemale>
+      <title>muscle idiot</title>
+      <titleFemale>muscle idiot</titleFemale>
+      <titleShort>bodybuilder</titleShort>
+      <titleShortFemale>bodybuilder</titleShortFemale>
       <baseDescription>[PAWN_nameDef] had been bullied relentlessly growing up, and took to weightlifting at an early age. While it stopped the bullying, it never earned [PAWN_objective] the belonging or respect [PAWN_pronoun] truly craved.</baseDescription>
       <bodyTypeMale>Hulk</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
@@ -148,10 +148,10 @@
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_5</defName>
-      <title>Awkward Kid</title>
-      <titleFemale>Awkward Kid</titleFemale>
-      <titleShort>Awkward Kid</titleShort>
-      <titleShortFemale>Awkward Kid</titleShortFemale>
+      <title>cat person</title>
+      <titleFemale>cat lady</titleFemale>
+      <titleShort>cat person</titleShort>
+      <titleShortFemale>cat lady</titleShortFemale>
       <baseDescription>[PAWN_nameDef] always preferred the company of [PAWN_possessive] cats growing up. [PAWN_pronoun] never learned to feel fully comfortable in conversations with fellow humans, however.</baseDescription>
       <bodyTypeMale>Thin</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
@@ -181,11 +181,11 @@
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_6</defName>
-      <title>Fairytale Kid</title>
-      <titleFemale>Fairytale Girl</titleFemale>
-      <titleShort>Idealist</titleShort>
-      <titleShortFemale>Idealist</titleShortFemale>
-      <baseDescription>[PAWN_nameDef] was an idealistic child who loved to read  fairy tales growing up. Despite [PAWN_possessive] naivete, [PAWN_pronoun]'s kind heart made [PAWN_objective] well-loved in [PAWN_possessive] midworld high school.</baseDescription>
+      <title>fairytale kid</title>
+      <titleFemale>fairytale girl</titleFemale>
+      <titleShort>idealist</titleShort>
+      <titleShortFemale>idealist</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] was an idealistic child who loved to read fairy tales growing up. Despite [PAWN_possessive] naivete, [PAWN_pronoun]'s kind heart made [PAWN_objective] well-loved in [PAWN_possessive] midworld high school.</baseDescription>
       <bodyTypeMale>Thin</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
@@ -218,10 +218,10 @@
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_7</defName>
-      <title>Aspiring Astronaut</title>
-      <titleFemale>Aspiring Astronaut</titleFemale>
-      <titleShort>Space Cadet</titleShort>
-      <titleShortFemale>Space Cadet</titleShortFemale>
+      <title>aspiring astronaut</title>
+      <titleFemale>aspiring astronaut</titleFemale>
+      <titleShort>space cadet</titleShort>
+      <titleShortFemale>space cadet</titleShortFemale>
       <baseDescription>[PAWN_nameDef] wanted nothing more than to follow in [PAWN_possessive] mother's footsteps as a space explorer. Unfortunately, while talented, [PAWN_possessive] inability to master the language of [PAWN_possessive] world's air traffic control resulted in [PAWN_possessive] rejection from flight school.</baseDescription>
       <bodyTypeMale>Thin</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
@@ -291,10 +291,10 @@
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_9</defName>
-      <title>Midworld Prodigy</title>
-      <titleFemale>Midworld Prodigy</titleFemale>
-      <titleShort>Prodigy</titleShort>
-      <titleShortFemale>Prodigy</titleShortFemale>
+      <title>midworld prodigy</title>
+      <titleFemale>midworld prodigy</titleFemale>
+      <titleShort>prodigy</titleShort>
+      <titleShortFemale>prodigy</titleShortFemale>
       <baseDescription>[PAWN_nameDef] was always blessed - or cursed - with limited emotion. [PAWN_pronoun] ended up becoming a top-ranking student in [PAWN_possessive] midworld high school with a wide range of skills, but [PAWN_possessive] faked emotions tended to turn others away.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
@@ -336,10 +336,10 @@
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_10</defName>
-      <title>Midworld Bookworm</title>
-      <titleFemale>Midworld Bookworm</titleFemale>
-      <titleShort>Bookworm</titleShort>
-      <titleShortFemale>Bookworm</titleShortFemale>
+      <title>midworld bookworm</title>
+      <titleFemale>midworld bookworm</titleFemale>
+      <titleShort>bookworm</titleShort>
+      <titleShortFemale>bookworm</titleShortFemale>
       <baseDescription>[PAWN_nameDef] tended to stick to make-believe fantasies, fiction, and non-fiction books during [PAWN_possessive] childhood. As a result, [PAWN_pronoun] ended up with a wealth of knowledge in many topics, but not a lot of experience socializing.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
@@ -382,10 +382,10 @@
    <!-- Next Anime-->
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_20</defName>
-      <title>VR Swordmaster</title>
-      <titleFemale>VR Swordmaster</titleFemale>
-      <titleShort>Swordsman</titleShort>
-      <titleShortFemale>Swordswoman</titleShortFemale>
+      <title>VR swordmaster</title>
+      <titleFemale>VR swordmaster</titleFemale>
+      <titleShort>swordsman</titleShort>
+      <titleShortFemale>swordswoman</titleShortFemale>
       <baseDescription>[PAWN_nameDef] suffered from an illness that forced [PAWN_objective] to spend most of [PAWN_possessive] time in virtual reality. [PAWN_pronoun] spent this time training to become the best swordsman in [PAWN_possessive] VR MMORPG.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
@@ -429,10 +429,24 @@
    <!-- Next Anime-->
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_30</defName>
-      <title>Renegade Prince</title>
-      <titleFemale>Renegade Princess</titleFemale>
-      <titleShort>Prince</titleShort>
-      <titleShortFemale>Princess</titleShortFemale>
+      <title>amnesiac</title>
+      <titleFemale>druid servant</titleFemale>
+      <titleShort>druid</titleShort>
+      <titleShortFemale>druid</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] was designated by [PAWN_possessive] tribe to be a servant of a pre-ordained high-ranking individual. [PAWN_pronoun] served dutifully, but always found time for studies of nature.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Tribal</li>
+      </spawnCategories>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>SS_Anime_31</defName>
+      <title>renegade prince</title>
+      <titleFemale>renegade princess</titleFemale>
+      <titleShort>prince</titleShort>
+      <titleShortFemale>princess</titleShortFemale>
       <baseDescription>[PAWN_nameDef] ran away from [PAWN_possessive] royal family and spent years traveling the world, picking up various odd jobs.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
@@ -472,12 +486,12 @@
       <requiredWorkTags />
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
-      <defName>SS_Anime_31</defName>
-      <title>Druid Servant</title>
-      <titleFemale>Druid Servant</titleFemale>
-      <titleShort>Druid</titleShort>
-      <titleShortFemale>Druid</titleShortFemale>
-      <baseDescription>[PAWN_nameDef] was designated by [PAWN_possessive] tribe to be a servant of a pre-ordained high-ranking individual. [PAWN_pronoun] served dutifully, but always found time for ideoligious studies.</baseDescription>
+      <defName>SS_Anime_32</defName>
+      <title>druid servant</title>
+      <titleFemale>druid servant</titleFemale>
+      <titleShort>druid</titleShort>
+      <titleShortFemale>druid</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] was designated by [PAWN_possessive] tribe to be a servant of a pre-ordained high-ranking individual. [PAWN_pronoun] served dutifully, but always found time for studies of nature.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
