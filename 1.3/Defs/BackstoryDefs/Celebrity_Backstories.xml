@@ -422,7 +422,7 @@
       <titleFemale>Martial Artist</titleFemale>
       <titleShort>Master</titleShort>
       <titleShortFemale>Master</titleShortFemale>
-      <baseDescription>[PAWN_nameDef]'s opened a reknowned school to teach martial arts. [PAWN_pronoun] searched [PAWN_possessive] world tirelessly for the secrets of both martial arts and enlightenment.</baseDescription>
+      <baseDescription>[PAWN_nameDef] opened a reknowned school to teach martial arts. [PAWN_pronoun] searched [PAWN_possessive] world tirelessly for the secrets of both martial arts and enlightenment.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Adulthood</slot>
@@ -582,7 +582,7 @@
       <title>pop scientist</title>
       <titleFemale>pop scientist</titleFemale>
       <titleShort>science guy</titleShort>
-      <titleShortFemale>science guy</titleShortFemale>
+      <titleShortFemale>science girl</titleShortFemale>
       <baseDescription>[PAWN_nameFull] was a well-known science communicator and scientific advocate on [PAWN_possessive] home world. [PAWN_pronoun] took the duty seriously in presenting scientific ideas to both children and adults, but rumors of callous behavior offstage always seemed to lurk in the background.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>

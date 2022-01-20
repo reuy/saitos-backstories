@@ -3,18 +3,17 @@
    <!-- Game Characters - Guess the Game character each backstory pertains to! -->
    <AlienRace.BackstoryDef>
       <defName>SS_Game_2</defName>
-      <title>Mine Crafter</title>
-      <titleFemale>Mine Crafter</titleFemale>
-      <titleShort>Builder</titleShort>
-      <titleShortFemale>Builder</titleShortFemale>
-      <baseDescription>[PAWN_nameDef] found [PAWN_objective]self alone on a beautiful and mysterious animal world with unexplained knowledge of construction and mining. [PAWN_pronoun] carved out a living for [PAWN_objective]self, and spend [PAWN_possessive] spare time building wonderous works of art.</baseDescription>
+      <title>mine crafter</title>
+      <titleFemale>mine crafter</titleFemale>
+      <titleShort>crafter</titleShort>
+      <titleShortFemale>crafter</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] found [PAWN_objective]self alone on a beautiful and mysterious animal world with unexplained knowledge of construction and mining. [PAWN_pronoun] carved out a living for [PAWN_objective]self, and spent [PAWN_possessive] spare time building wonderous works of art.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
       <spawnCategories>
          <li>Offworld</li>
          <li>Outlander</li>
-         <li>ImperialCommon</li>
       </spawnCategories>
       <skillGains>
          <li>
@@ -54,6 +53,8 @@
       <requiredWorkTags>
          <li>Violent</li>
       </requiredWorkTags>
+	  <maleCommonality>3</maleCommonality>
+	  <femaleCommonality>3</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Game_3</defName>
@@ -65,7 +66,10 @@
       <bodyTypeMale>Hulk</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
-      <spawnCategories />
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+      </spawnCategories>
       <skillGains>
          <li>
             <defName>Melee</defName>
@@ -125,6 +129,8 @@
       <workDisables>
          <li>Artistic</li>
       </workDisables>
+	  <maleCommonality>3</maleCommonality>
+	  <femaleCommonality>3</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Game_4</defName>
@@ -132,11 +138,14 @@
       <titleFemale>SPARTAN-II</titleFemale>
       <titleShort>SPARTAN-II</titleShort>
       <titleShortFemale>SPARTAN-II</titleShortFemale>
-      <baseDescription>[PAWN_nameDef] received extremely dangerous and experimental augmentations to become a supersoldier. Very few of [PAWN_nameDef]'s cohort survived the process.</baseDescription>
+      <baseDescription>[PAWN_nameDef] received extremely dangerous and experimental augmentations to become a supersoldier. Very few of [PAWN_nameDef]'s cohort survived the process, but those who did received incredible abilities.</baseDescription>
       <bodyTypeMale>Hulk</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Adulthood</slot>
-      <spawnCategories />
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+      </spawnCategories>
       <skillGains>
          <li>
             <defName>Melee</defName>
@@ -182,6 +191,8 @@
       <workDisables>
          <li>Artistic</li>
       </workDisables>
+	  <maleCommonality>.01</maleCommonality>
+	  <femaleCommonality>.01</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Game_5</defName>
@@ -193,7 +204,10 @@
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
-      <spawnCategories />
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+      </spawnCategories>
       <skillGains>
          <li>
             <defName>Melee</defName>
@@ -228,6 +242,8 @@
       <workDisables>
          <li>Artistic</li>
       </workDisables>
+	  <maleCommonality>2</maleCommonality>
+	  <femaleCommonality>2</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Game_6</defName>
@@ -342,9 +358,6 @@
          <li>
             <defName>SpeedOffset</defName>
             <degree>2</degree>
-         </li>
-         <li>
-            <defName>Sniper</defName>
          </li>
       </forcedTraits>
       <requiredWorkTags>

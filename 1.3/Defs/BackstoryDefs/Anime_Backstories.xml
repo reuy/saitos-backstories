@@ -425,6 +425,8 @@
       <requiredWorkTags>
          <li>Violent</li>
       </requiredWorkTags>
+	  <maleCommonality>3</maleCommonality>
+	  <femaleCommonality>3</femaleCommonality>
    </AlienRace.BackstoryDef>
    <!-- Next Anime-->
    <AlienRace.BackstoryDef>
@@ -438,7 +440,11 @@
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
       <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
       </spawnCategories>
+	  <maleCommonality>3</maleCommonality>
+	  <femaleCommonality>3</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_31</defName>
@@ -483,6 +489,8 @@
          </li>
       </skillGains>
       <requiredWorkTags />
+	  <maleCommonality>3</maleCommonality>
+	  <femaleCommonality>5</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_32</defName>
@@ -519,8 +527,9 @@
          <li>Caring</li>
          <li>Cleaning</li>
       </requiredWorkTags>
+	  <maleCommonality>3</maleCommonality>
+	  <femaleCommonality>3</femaleCommonality>
    </AlienRace.BackstoryDef>
-</Defs>
    <!-- Next Anime-->
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_40</defName>
@@ -532,8 +541,6 @@
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
-      <spawnCategories>
-      </spawnCategories>
       <skillGains>
          <li>
             <defName>Intellectual</defName>
@@ -548,7 +555,11 @@
             <amount>4</amount>
          </li>
       </skillGains>
+	  <maleCommonality>3</maleCommonality>
+	  <femaleCommonality>3</femaleCommonality>
    </AlienRace.BackstoryDef>
+   <!-- Next Anime-->
+</Defs>
 <!--
 
 	<AlienRace.BackstoryDef>
