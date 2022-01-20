@@ -316,7 +316,7 @@
       <titleFemale>Purgeworld Farmer</titleFemale>
       <titleShort>Farmer</titleShort>
       <titleShortFemale>Farmer</titleShortFemale>
-      <baseDescription>[PAWN_nameDef] grew up on an agricultural Purgeworld, where all citizens were forced to meet monthly farming quotas or be forcibly converted into fertilizer. [PAWN_nameDef] learned quickly the intricacies of sowing and harvesting crops, at the cost of scarring [PAWN_objective] greatly.</baseDescription>
+      <baseDescription>[PAWN_nameDef] grew up on an agricultural purgeworld, where all citizens were forced to meet monthly farming quotas or be forcibly converted into fertilizer. [PAWN_nameDef] learned quickly the intricacies of sowing and harvesting crops, at the cost of scarring [PAWN_objective] greatly.</baseDescription>
       <bodyTypeMale>Hulk</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
@@ -363,7 +363,7 @@
       <titleFemale>Purgeworld Rancher</titleFemale>
       <titleShort>Rancher</titleShort>
       <titleShortFemale>Rancher</titleShortFemale>
-      <baseDescription>[PAWN_nameDef] grew up on an agricultural Purgeworld, where all citizens were forced to meet monthly ranching quotas or be fed alive to the animals of those who survived. [PAWN_nameDef] learned quickly the intricacies of rearing and taming animals, at the cost of scarring [PAWN_objective] greatly.</baseDescription>
+      <baseDescription>[PAWN_nameDef] grew up on an agricultural purgeworld, where all citizens were forced to meet monthly ranching quotas or be fed alive to the animals of those who survived. [PAWN_nameDef] learned quickly the intricacies of rearing and taming animals, at the cost of scarring [PAWN_objective] greatly.</baseDescription>
       <bodyTypeMale>Hulk</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
