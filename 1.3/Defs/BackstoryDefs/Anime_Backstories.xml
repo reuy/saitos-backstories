@@ -430,15 +430,14 @@
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_30</defName>
       <title>amnesiac</title>
-      <titleFemale>druid servant</titleFemale>
-      <titleShort>druid</titleShort>
-      <titleShortFemale>druid</titleShortFemale>
-      <baseDescription>[PAWN_nameDef] was designated by [PAWN_possessive] tribe to be a servant of a pre-ordained high-ranking individual. [PAWN_pronoun] served dutifully, but always found time for studies of nature.</baseDescription>
+      <titleFemale>amnesiac</titleFemale>
+      <titleShort>amnesiac</titleShort>
+      <titleShortFemale>amnesiac</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] awoke on the Rimworld with no memory of who [PAWN_pronoun] was.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
       <spawnCategories>
-         <li>Tribal</li>
       </spawnCategories>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
@@ -522,6 +521,34 @@
       </requiredWorkTags>
    </AlienRace.BackstoryDef>
 </Defs>
+   <!-- Next Anime-->
+   <AlienRace.BackstoryDef>
+      <defName>SS_Anime_40</defName>
+      <title>military prodigy</title>
+      <titleFemale>military prodigy</titleFemale>
+      <titleShort>captain</titleShort>
+      <titleShortFemale>captain</titleShortFemale>
+      <baseDescription>[PAWN_nameDef], from a young age, demonstrated consistent intellectual and tactical prowess, rising rapidly to a high rank in [PAWN_possessive] world's military.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Intellectual</defName>
+            <amount>7</amount>
+         </li>
+         <li>
+            <defName>Shooting</defName>
+            <amount>3</amount>
+         </li>
+         <li>
+            <defName>Social</defName>
+            <amount>4</amount>
+         </li>
+      </skillGains>
+   </AlienRace.BackstoryDef>
 <!--
 
 	<AlienRace.BackstoryDef>

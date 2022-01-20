@@ -235,7 +235,7 @@
       <titleFemale>Clone Trooper</titleFemale>
       <titleShort>Clone Trooper</titleShort>
       <titleShortFemale>Clone Trooper</titleShortFemale>
-      <baseDescription>[PAWN_nameDef] graduated training, and entered the service as a the competent rifleman [PAWN_pronoun] was bred to be, trained in marksmanship and field maneuvering.</baseDescription>
+      <baseDescription>[PAWN_nameDef] graduated training, and entered the service as the competent rifleman [PAWN_pronoun] was bred to be, trained in marksmanship and field maneuvering.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Adulthood</slot>
@@ -275,7 +275,7 @@
       <titleFemale>Clone Sniper</titleFemale>
       <titleShort>Clone Sniper</titleShort>
       <titleShortFemale>Clone Sniper</titleShortFemale>
-      <baseDescription>[PAWN_nameDef] graduated training, and entered the service as a the eagle-eyed sniper [PAWN_pronoun] was bred to be, trained in wilderness survival, reconnaissance, and marksmanship.</baseDescription>
+      <baseDescription>[PAWN_nameDef] graduated training, and entered the service as the eagle-eyed sniper [PAWN_pronoun] was bred to be, trained in wilderness survival, reconnaissance, and marksmanship.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Adulthood</slot>
@@ -315,7 +315,7 @@
       <titleFemale>Clone Engineer</titleFemale>
       <titleShort>Clone Engineer</titleShort>
       <titleShortFemale>Clone Engineer</titleShortFemale>
-      <baseDescription>[PAWN_nameDef] graduated training, and entered the service as a the capable combat engineer [PAWN_pronoun] was bred to be, trained in battlefield construction, explosives, and equipment operation.</baseDescription>
+      <baseDescription>[PAWN_nameDef] graduated training, and entered the service as the capable combat engineer [PAWN_pronoun] was bred to be, trained in battlefield construction, explosives, and equipment operation.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Adulthood</slot>
@@ -360,7 +360,7 @@
       <titleFemale>Clone Shocktrooper</titleFemale>
       <titleShort>Clone Heavy</titleShort>
       <titleShortFemale>Clone Heavy</titleShortFemale>
-      <baseDescription>[PAWN_nameDef] graduated training, and entered the service as a the capable shocktrooper [PAWN_pronoun] was bred to be, with a more aggressive temperament than [PAWN_possessive] compatriots.</baseDescription>
+      <baseDescription>[PAWN_nameDef] graduated training, and entered the service as the capable shocktrooper [PAWN_pronoun] was bred to be, with a more aggressive temperament than [PAWN_possessive] compatriots.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Adulthood</slot>
