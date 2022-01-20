@@ -3,10 +3,10 @@
    <!-- Characters based off real-life celebrities -->
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-1</defName>
-      <title>Myth Buster</title>
-      <titleFemale>Myth Buster</titleFemale>
-      <titleShort>Mythbuster</titleShort>
-      <titleShortFemale>Mythbuster</titleShortFemale>
+      <title>myth buster</title>
+      <titleFemale>myth buster</titleFemale>
+      <titleShort>mythbuster</titleShort>
+      <titleShortFemale>mythbuster</titleShortFemale>
       <baseDescription>[PAWN_nameDef] was a co-host in a reality TV show focused on building laboratory environments to test the validity of common memes. While [PAWN_pronoun] and [PAWN_possessive] counterpart came to be known as inseparable in the public eye, in truth, they were not that close when the cameras were off.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
@@ -253,7 +253,7 @@
          </li>
          <li>
             <defName>SpeedOffset</defName>
-			<degree>2</degree>
+            <degree>2</degree>
             <chance>50</chance>
          </li>
          <li>
@@ -264,11 +264,11 @@
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-9</defName>
-      <title>Young Specialist</title>
-      <titleFemale>Young Specialist</titleFemale>
-      <titleShort>Specialist</titleShort>
-      <titleShortFemale>Specialist</titleShortFemale>
-      <baseDescription>[PAWN_nameDef] was a junior soldier in a Special Operations unit. [PAWN_pronoun] learned the gist of survival, explosives, and marksmanship, but above all always enjoyed missions in faraway mountains</baseDescription>
+      <title>young specialist</title>
+      <titleFemale>young specialist</titleFemale>
+      <titleShort>specialist</titleShort>
+      <titleShortFemale>specialist</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] was a junior soldier in a Special Operations unit. [PAWN_pronoun] learned the gist of survival, explosives, and marksmanship, but above all always enjoyed missions in faraway mountains.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
@@ -448,7 +448,7 @@
          </li>
          <li>
             <defName>SpeedOffset</defName>
-			<degree>2</degree>
+            <degree>2</degree>
             <chance>50</chance>
          </li>
          <li>
@@ -466,10 +466,10 @@
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-14</defName>
-      <title>Young Minister</title>
-      <titleFemale>Young Minister</titleFemale>
-      <titleShort>Minister</titleShort>
-      <titleShortFemale>Minister</titleShortFemale>
+      <title>young Minister</title>
+      <titleFemale>young Minister</titleFemale>
+      <titleShort>minister</titleShort>
+      <titleShortFemale>minister</titleShortFemale>
       <baseDescription>[PAWN_nameDef] grew up a shy child to a successful businessman. [PAWN_pronoun] eventually overcame [PAWN_possessive] shyness and became an ideoligious minister.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
@@ -508,10 +508,10 @@
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-15</defName>
-      <title>Childrens' Show Host</title>
-      <titleFemale>Childrens' Show Host</titleFemale>
-      <titleShort>TV Host</titleShort>
-      <titleShortFemale>TV Host</titleShortFemale>
+      <title>childrens' show host</title>
+      <titleFemale>childrens' show host</titleFemale>
+      <titleShort>TV host</titleShort>
+      <titleShortFemale>TV host</titleShortFemale>
       <baseDescription>[PAWN_nameDef] became a much-beloved host to a TV show, where [PAWN_pronoun] taught values of optimism and kindness to enraptured children.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
@@ -546,6 +546,75 @@
       <workDisables>
          <li>Violent</li>
       </workDisables>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>SS_Celeb-16</defName>
+      <title>engineering student</title>
+      <titleFemale>engineering student</titleFemale>
+      <titleShort>student</titleShort>
+      <titleShortFemale>student</titleShortFemale>
+      <baseDescription>[PAWN_nameFull] trained in engineering at an elite university, before starting a nascent career at an aerospace firm.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+         <li>ImperialCommon</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Intellectual</defName>
+            <amount>4</amount>
+         </li>
+         <li>
+            <defName>Crafting</defName>
+            <amount>4</amount>
+         </li>
+         <li>
+            <defName>Construction</defName>
+            <amount>3</amount>
+         </li>
+      </skillGains>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>SS_Celeb-17</defName>
+      <title>pop scientist</title>
+      <titleFemale>pop scientist</titleFemale>
+      <titleShort>science guy</titleShort>
+      <titleShortFemale>science guy</titleShortFemale>
+      <baseDescription>[PAWN_nameFull] was a well-known science communicator and scientific advocate on [PAWN_possessive] home world. [PAWN_pronoun] took the duty seriously in presenting scientific ideas to both children and adults, but rumors of callous behavior offstage always seemed to lurk in the background.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Adulthood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+         <li>ImperialCommon</li>
+      </spawnCategories>
+      <skillGains>
+         <li>
+            <defName>Intellectual</defName>
+            <amount>6</amount>
+         </li>
+         <li>
+            <defName>Artistic</defName>
+            <amount>2</amount>
+         </li>
+         <li>
+            <defName>Social</defName>
+            <amount>-2</amount>
+         </li>
+      </skillGains>
+      <forcedTraits>
+         <li>
+            <defName>Abrasive</defName>
+            <chance>50</chance>
+         </li>
+      </forcedTraits>
+      <requiredWorkTags>
+         <li>Intellectual</li>
+      </requiredWorkTags>
    </AlienRace.BackstoryDef>
 </Defs>
 <!--
