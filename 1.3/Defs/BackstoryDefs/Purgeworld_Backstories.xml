@@ -154,7 +154,7 @@
          <li>Constructing</li>
       </workDisables>
 	  <maleCommonality>20</maleCommonality>
-	  <femaleCommonality>20</maleCommonality>
+	  <femaleCommonality>20</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>PW_Fighter</defName>
