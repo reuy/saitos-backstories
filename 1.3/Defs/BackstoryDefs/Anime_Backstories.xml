@@ -77,10 +77,10 @@
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_3</defName>
-      <title>Sword Practitioner</title>
-      <titleFemale>Sword Practitioner</titleFemale>
-      <titleShort>Swordsman</titleShort>
-      <titleShortFemale>Swordswoman</titleShortFemale>
+      <title>sword practitioner</title>
+      <titleFemale>sword practitioner</titleFemale>
+      <titleShort>swordsman</titleShort>
+      <titleShortFemale>swordswoman</titleShortFemale>
       <baseDescription>[PAWN_nameDef] spent [PAWN_possessive] youth studying the blade as a hobby.</baseDescription>
       <bodyTypeMale>Hulk</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
@@ -256,10 +256,10 @@
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_8</defName>
-      <title>Unwanted Scion</title>
-      <titleFemale>Unwanted Daughter</titleFemale>
-      <titleShort>Delinquent</titleShort>
-      <titleShortFemale>Delinquent</titleShortFemale>
+      <title>unwanted scion</title>
+      <titleFemale>unwanted daughter</titleFemale>
+      <titleShort>delinquent</titleShort>
+      <titleShortFemale>delinquent</titleShortFemale>
       <baseDescription>As a child, [PAWN_nameDef] was forced to compete with [PAWN_possessive] siblings to prove worthiness to inherit [PAWN_possessive] family's megacorp. [PAWN_nameDef] lost these games and was branded a shame to the family, and relentlessly abused and gaslighted. [PAWN_pronoun] found solace from the abuse in fanciful crafting projects.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
@@ -451,8 +451,8 @@
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_31</defName>
-      <title>renegade prince</title>
-      <titleFemale>renegade princess</titleFemale>
+      <title>wandering prince</title>
+      <titleFemale>wandering princess</titleFemale>
       <titleShort>prince</titleShort>
       <titleShortFemale>princess</titleShortFemale>
       <baseDescription>[PAWN_nameDef] ran away from [PAWN_possessive] royal family and spent years traveling the world, picking up various odd jobs.</baseDescription>
@@ -468,6 +468,10 @@
       <skillGains>
          <li>
             <defName>Construction</defName>
+            <amount>3</amount>
+         </li>
+         <li>
+            <defName>Cooking</defName>
             <amount>3</amount>
          </li>
          <li>

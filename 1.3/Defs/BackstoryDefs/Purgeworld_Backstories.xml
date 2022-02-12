@@ -48,8 +48,8 @@
          <li>Constructing</li>
          <li>Shooting</li>
       </workDisables>
-	  <maleCommonality>3</maleCommonality>
-	  <femaleCommonality>3</femaleCommonality>
+	  <maleCommonality>20</maleCommonality>
+	  <femaleCommonality>20</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>PW_Hauler</defName>
@@ -86,7 +86,6 @@
          <li>Crafting</li>
          <li>Cooking</li>
          <li>Firefighting</li>
-         <li>Hauling</li>
          <li>PlantWork</li>
          <li>Mining</li>
          <li>Hunting</li>
@@ -94,18 +93,12 @@
          <li>Shooting</li>
       </workDisables>
     <forcedHediffs>
-			<li>
-				<bodyPart>Leg</bodyPart>
-				<recipe>InstallBionicLeg</recipe>
-			</li>
-			<li>
-				<bodyPart>Leg</bodyPart>
-				<bodyPartIndex>1</bodyPartIndex>
-				<recipe>InstallBionicLeg</recipe>
-			</li>
+			<li>ArchotechLeg</li>
+			<li>ArchotechLeg</li>
+			<li>BionicSpine</li>
     </forcedHediffs>
-	  <maleCommonality>3</maleCommonality>
-	  <femaleCommonality>3</femaleCommonality>
+	  <maleCommonality>20</maleCommonality>
+	  <femaleCommonality>20</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>PW_Shooter</defName>
@@ -160,8 +153,8 @@
          <li>Hunting</li>
          <li>Constructing</li>
       </workDisables>
-	  <maleCommonality>3</maleCommonality>
-	  <femaleCommonality>3</femaleCommonality>
+	  <maleCommonality>20</maleCommonality>
+	  <femaleCommonality>20</maleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>PW_Fighter</defName>
@@ -218,8 +211,8 @@
          <li>Constructing</li>
          <li>Shooting</li>
       </workDisables>
-	  <maleCommonality>3</maleCommonality>
-	  <femaleCommonality>3</femaleCommonality>
+	  <maleCommonality>30</maleCommonality>
+	  <femaleCommonality>10</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>PW_Builder</defName>
@@ -269,8 +262,8 @@
 		<li>Hunting</li>
 		<li>Shooting</li>
       </workDisables>
-	  <maleCommonality>3</maleCommonality>
-	  <femaleCommonality>3</femaleCommonality>
+	  <maleCommonality>25</maleCommonality>
+	  <femaleCommonality>15</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>PW_Miner</defName>
@@ -323,8 +316,8 @@
          <li>Constructing</li>
          <li>Shooting</li>
       </workDisables>
-	  <maleCommonality>3</maleCommonality>
-	  <femaleCommonality>1</femaleCommonality>
+	  <maleCommonality>25</maleCommonality>
+	  <femaleCommonality>15</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>PW_Chef</defName>
@@ -376,8 +369,8 @@
          <li>Constructing</li>
          <li>Shooting</li>
       </workDisables>
-	  <maleCommonality>3</maleCommonality>
-	  <femaleCommonality>3</femaleCommonality>
+	  <maleCommonality>20</maleCommonality>
+	  <femaleCommonality>20</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>PW_Grower</defName>
@@ -425,8 +418,8 @@
          <li>Constructing</li>
          <li>Shooting</li>
       </workDisables>
-	  <maleCommonality>3</maleCommonality>
-	  <femaleCommonality>3</femaleCommonality>
+	  <maleCommonality>20</maleCommonality>
+	  <femaleCommonality>20</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>PW_Rancher</defName>
@@ -474,8 +467,8 @@
          <li>Constructing</li>
          <li>Shooting</li>
       </workDisables>
-	  <maleCommonality>3</maleCommonality>
-	  <femaleCommonality>3</femaleCommonality>
+	  <maleCommonality>20</maleCommonality>
+	  <femaleCommonality>20</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>PW_Crafter</defName>
@@ -531,8 +524,8 @@
          <li>Hunting</li>
          <li>Shooting</li>
       </workDisables>
-	  <maleCommonality>3</maleCommonality>
-	  <femaleCommonality>3</femaleCommonality>
+	  <maleCommonality>20</maleCommonality>
+	  <femaleCommonality>20</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>PW_Artist</defName>
@@ -585,8 +578,8 @@
          <li>Constructing</li>
          <li>Shooting</li>
       </workDisables>
-	  <maleCommonality>3</maleCommonality>
-	  <femaleCommonality>3</femaleCommonality>
+	  <maleCommonality>15</maleCommonality>
+	  <femaleCommonality>25</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>PW_Doctor</defName>
@@ -636,8 +629,8 @@
          <li>Constructing</li>
          <li>Shooting</li>
       </workDisables>
-	  <maleCommonality>3</maleCommonality>
-	  <femaleCommonality>3</femaleCommonality>
+	  <maleCommonality>20</maleCommonality>
+	  <femaleCommonality>20</femaleCommonality>
    </AlienRace.BackstoryDef>
 </Defs>
 <!--

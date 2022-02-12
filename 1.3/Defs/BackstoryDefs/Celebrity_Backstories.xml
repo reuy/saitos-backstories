@@ -39,10 +39,10 @@
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-2</defName>
-      <title>Master Chef</title>
-      <titleFemale>Master Chef</titleFemale>
-      <titleShort>Master Chef</titleShort>
-      <titleShortFemale>Master Chef</titleShortFemale>
+      <title>master chef</title>
+      <titleFemale>master chef</titleFemale>
+      <titleShort>chef</titleShort>
+      <titleShortFemale>chef</titleShortFemale>
       <baseDescription>[PAWN_nameDef] was a world-reknowned chef running an empire of restaurants and TV shows. [PAWN_pronoun] became known for a fiery attitude towards cooking.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
@@ -88,10 +88,10 @@
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-3</defName>
-      <title>Street Urchin</title>
-      <titleFemale>Street Urchin</titleFemale>
-      <titleShort>Street Kid</titleShort>
-      <titleShortFemale>Street Kid</titleShortFemale>
+      <title>street urchin</title>
+      <titleFemale>street urchin</titleFemale>
+      <titleShort>street kid</titleShort>
+      <titleShortFemale>street kid</titleShortFemale>
       <baseDescription>[PAWN_nameDef] grew up in a slum, doing odd jobs to support [PAWN_objective]self and [PAWN_possessive] family. [PAWN_possessive] family would often resort to drugs and alcohol, which lead to violent incidents.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
@@ -116,10 +116,10 @@
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-4</defName>
-      <title>Aspiring Actor</title>
-      <titleFemale>Aspiring Actor</titleFemale>
-      <titleShort>Actor</titleShort>
-      <titleShortFemale>Actor</titleShortFemale>
+      <title>aspiring actor</title>
+      <titleFemale>aspiring actress</titleFemale>
+      <titleShort>actor</titleShort>
+      <titleShortFemale>actress</titleShortFemale>
       <baseDescription>[PAWN_nameDef] always wanted to get into acting, and spent [PAWN_possessive] early years in various acting schools. [PAWN_pronoun] also managed to snag voice acting positions.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
@@ -142,10 +142,10 @@
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-5</defName>
-      <title>Hitchhiker</title>
-      <titleFemale>Hitchhiker</titleFemale>
-      <titleShort>Hitchhiker</titleShort>
-      <titleShortFemale>Hitchhiker</titleShortFemale>
+      <title>hitchhiker</title>
+      <titleFemale>hitchhiker</titleFemale>
+      <titleShort>hitchhiker</titleShort>
+      <titleShortFemale>hitchhiker</titleShortFemale>
       <baseDescription>[PAWN_nameDef] ran away when [PAWN_pronoun] was a child and adventured the world. This gave [PAWN_objective] a wide range of experiences.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
@@ -230,10 +230,10 @@
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-8</defName>
-      <title>Sports Player</title>
-      <titleFemale>Sports Player</titleFemale>
-      <titleShort>Athlete</titleShort>
-      <titleShortFemale>Athlete</titleShortFemale>
+      <title>sports player</title>
+      <titleFemale>sports player</titleFemale>
+      <titleShort>athlete</titleShort>
+      <titleShortFemale>athlete</titleShortFemale>
       <baseDescription>[PAWN_nameDef] played a popular ball sport in [PAWN_possessive] youth. This made [PAWN_objective] tougher than most.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
@@ -331,10 +331,10 @@
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-10</defName>
-      <title>Survival Expert</title>
-      <titleFemale>Survival Expert</titleFemale>
-      <titleShort>Survivalist</titleShort>
-      <titleShortFemale>Survivalist</titleShortFemale>
+      <title>survival expert</title>
+      <titleFemale>survival expert</titleFemale>
+      <titleShort>survivalist</titleShort>
+      <titleShortFemale>survivalist</titleShortFemale>
       <baseDescription>[PAWN_nameDef] hosted a popular TV show where [PAWN_pronoun] would drop into various hostile environments and demonstrate survival techniques.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
@@ -380,10 +380,10 @@
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-11</defName>
-      <title>Salesman</title>
-      <titleFemale>Salesman</titleFemale>
-      <titleShort>Salesman</titleShort>
-      <titleShortFemale>Salesman</titleShortFemale>
+      <title>salesman</title>
+      <titleFemale>salesman</titleFemale>
+      <titleShort>salesman</titleShort>
+      <titleShortFemale>salesman</titleShortFemale>
       <baseDescription>[PAWN_nameDef] was a famous salesman whose mannerisms and affect became iconic on [PAWN_possessive] homeworld.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
@@ -405,10 +405,10 @@
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-12</defName>
-      <title>Child Actor</title>
-      <titleFemale>Child Actor</titleFemale>
-      <titleShort>Actor</titleShort>
-      <titleShortFemale>Actor</titleShortFemale>
+      <title>child actor</title>
+      <titleFemale>child actress</titleFemale>
+      <titleShort>actor</titleShort>
+      <titleShortFemale>actress</titleShortFemale>
       <baseDescription>[PAWN_nameDef]'s father starred in various martial arts operas. [PAWN_pronoun] learned the intricacies of acting, as well as martial arts.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
@@ -559,6 +559,8 @@
       <workDisables>
          <li>Violent</li>
       </workDisables>
+	  <maleCommonality>20</maleCommonality>
+	  <femaleCommonality>20</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-16</defName>
