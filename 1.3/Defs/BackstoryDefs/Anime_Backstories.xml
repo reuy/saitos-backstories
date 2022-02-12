@@ -93,7 +93,7 @@
       <skillGains>
          <li>
             <defName>Melee</defName>
-            <amount>10</amount>
+            <amount>6</amount>
          </li>
       </skillGains>
       <forcedTraits>
@@ -141,6 +141,7 @@
             <defName>Brawler</defName>
          </li>
       </forcedTraits>
+      <maleCommonality>10</maleCommonality>
       <femaleCommonality>1</femaleCommonality>
       <requiredWorkTags>
          <li>Violent</li>
@@ -215,6 +216,8 @@
       <requiredWorkTags>
          <li>Social</li>
       </requiredWorkTags>
+      <maleCommonality>10</maleCommonality>
+      <femaleCommonality>20</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_7</defName>

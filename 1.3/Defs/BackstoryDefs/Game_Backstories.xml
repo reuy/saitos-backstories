@@ -7,7 +7,7 @@
       <titleFemale>mine crafter</titleFemale>
       <titleShort>crafter</titleShort>
       <titleShortFemale>crafter</titleShortFemale>
-      <baseDescription>[PAWN_nameDef] found [PAWN_objective]self alone on a beautiful and mysterious animal world with unexplained knowledge of construction and mining. [PAWN_pronoun] carved out a living for [PAWN_objective]self, and spent [PAWN_possessive] spare time building wonderous works of art.</baseDescription>
+      <baseDescription>[PAWN_nameDef] found [PAWN_objective]self alone on a beautiful and mysterious animal world with unexplained talent in construction and mining. [PAWN_pronoun] carved out a living for [PAWN_objective]self, and spent [PAWN_possessive] spare time building wonderous works of art.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
@@ -53,8 +53,8 @@
       <requiredWorkTags>
          <li>Violent</li>
       </requiredWorkTags>
-	  <maleCommonality>3</maleCommonality>
-	  <femaleCommonality>3</femaleCommonality>
+      <maleCommonality>1</maleCommonality>
+      <femaleCommonality>1</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Game_3</defName>
@@ -129,8 +129,8 @@
       <workDisables>
          <li>Artistic</li>
       </workDisables>
-	  <maleCommonality>3</maleCommonality>
-	  <femaleCommonality>3</femaleCommonality>
+      <maleCommonality>3</maleCommonality>
+      <femaleCommonality>3</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Game_4</defName>
@@ -191,8 +191,9 @@
       <workDisables>
          <li>Artistic</li>
       </workDisables>
-	  <maleCommonality>.01</maleCommonality>
-	  <femaleCommonality>.01</femaleCommonality>
+      <maleCommonality>.01</maleCommonality>
+      <femaleCommonality>.01</femaleCommonality>
+      <linkedBackstory>SS_Game_3</linkedBackstory>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Game_5</defName>
@@ -242,8 +243,8 @@
       <workDisables>
          <li>Artistic</li>
       </workDisables>
-	  <maleCommonality>2</maleCommonality>
-	  <femaleCommonality>2</femaleCommonality>
+      <maleCommonality>2</maleCommonality>
+      <femaleCommonality>2</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Game_6</defName>
@@ -284,6 +285,7 @@
          <li>Violent</li>
          <li>ManualDumb</li>
       </requiredWorkTags>
+      <linkedBackstory>SS_Game_5</linkedBackstory>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Game_7</defName>
@@ -324,6 +326,7 @@
          <li>Violent</li>
          <li>ManualDumb</li>
       </requiredWorkTags>
+      <linkedBackstory>SS_Game_5</linkedBackstory>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Game_8</defName>
@@ -366,6 +369,7 @@
          <li>Constructing</li>
          <li>Crafting</li>
       </requiredWorkTags>
+      <linkedBackstory>SS_Game_5</linkedBackstory>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Game_9</defName>
@@ -406,6 +410,7 @@
          <li>Constructing</li>
          <li>Crafting</li>
       </requiredWorkTags>
+      <linkedBackstory>SS_Game_5</linkedBackstory>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Game_10</defName>
@@ -458,6 +463,7 @@
          <li>Constructing</li>
          <li>Crafting</li>
       </requiredWorkTags>
+      <linkedBackstory>SS_Game_5</linkedBackstory>
    </AlienRace.BackstoryDef>
 </Defs>
 <!--
@@ -665,4 +671,3 @@ MetaWords
 [PAWN_possessive] his/her
 [PAWN_objective] him/her
 -->
-

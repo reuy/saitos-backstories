@@ -31,6 +31,7 @@
          </li>
       </forcedTraits>
       <workDisables>
+		 <li>Hauling</li>
          <li>Violent</li>
          <li>Caring</li>
          <li>Social</li>
@@ -47,6 +48,62 @@
          <li>Constructing</li>
          <li>Shooting</li>
       </workDisables>
+	  <maleCommonality>3</maleCommonality>
+	  <femaleCommonality>3</femaleCommonality>
+   </AlienRace.BackstoryDef>
+   <AlienRace.BackstoryDef>
+      <defName>PW_Hauler</defName>
+      <title>purgeworld hauler</title>
+      <titleFemale>purgeworld hauler</titleFemale>
+      <titleShort>hauler</titleShort>
+      <titleShortFemale>hauler</titleShortFemale>
+      <baseDescription>[PAWN_nameDef] grew up on a world that forced individuals to compete to move heavy objects quickly. The winners would be augmented with advanced implants to compete against other augmentees, while the losers would be forced try in vain to evade formula-grade vehicles attempting to splatter them for entertainment. Surviving the ordeals gave [PAWN_nameDef] an excellent work ethic for hauling, while scarring [PAWN_objective] greatly.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <slot>Childhood</slot>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+         <li>ImperialCommon</li>
+      </spawnCategories>
+      <forcedTraits>
+         <li>
+            <defName>SpeedOffset</defName>
+            <degree>2</degree>
+         </li>
+         <li>
+            <defName>QuickSleeper</defName>
+         </li>
+      </forcedTraits>
+      <workDisables>
+         <li>Cleaning</li>
+         <li>Violent</li>
+         <li>Caring</li>
+         <li>Social</li>
+         <li>Intellectual</li>
+         <li>Animals</li>
+         <li>Artistic</li>
+         <li>Crafting</li>
+         <li>Cooking</li>
+         <li>Firefighting</li>
+         <li>Hauling</li>
+         <li>PlantWork</li>
+         <li>Mining</li>
+         <li>Hunting</li>
+         <li>Constructing</li>
+         <li>Shooting</li>
+      </workDisables>
+    <forcedHediffs>
+			<li>
+				<bodyPart>Leg</bodyPart>
+				<recipe>InstallBionicLeg</recipe>
+			</li>
+			<li>
+				<bodyPart>Leg</bodyPart>
+				<bodyPartIndex>1</bodyPartIndex>
+				<recipe>InstallBionicLeg</recipe>
+			</li>
+    </forcedHediffs>
 	  <maleCommonality>3</maleCommonality>
 	  <femaleCommonality>3</femaleCommonality>
    </AlienRace.BackstoryDef>
