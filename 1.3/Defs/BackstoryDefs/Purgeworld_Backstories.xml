@@ -29,6 +29,7 @@
             <defName>Neurotic</defName>
             <degree>2</degree>
          </li>
+		 <!-- PATCH: VTE: Neat Trait -->
       </forcedTraits>
       <workDisables>
 		 <li>Hauling</li>
@@ -57,7 +58,7 @@
       <titleFemale>purgeworld hauler</titleFemale>
       <titleShort>hauler</titleShort>
       <titleShortFemale>hauler</titleShortFemale>
-      <baseDescription>[PAWN_nameDef] grew up on a world that forced individuals to compete to move heavy objects quickly. The winners would be augmented with advanced implants to compete against other augmentees, while the losers would be forced try in vain to evade formula-grade vehicles attempting to splatter them for entertainment. Surviving the ordeals gave [PAWN_nameDef] an excellent work ethic for hauling, while scarring [PAWN_objective] greatly.</baseDescription>
+      <baseDescription>[PAWN_nameDef] grew up on a world that forced individuals to compete to move heavy objects quickly. The winners would be augmented with advanced implants to compete against other augmentees, while the losers would be forced try in vain to outrun formula-grade vehicles attempting to splatter them for entertainment. Surviving the ordeals gave [PAWN_nameDef] an excellent work ethic for hauling, while scarring [PAWN_objective] greatly.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
@@ -96,6 +97,7 @@
 			<li>ArchotechLeg</li>
 			<li>ArchotechLeg</li>
 			<li>BionicSpine</li>
+			<!-- PATCH: Royalty: Circadian half cycler -->
     </forcedHediffs>
 	  <maleCommonality>20</maleCommonality>
 	  <femaleCommonality>20</femaleCommonality>
@@ -136,6 +138,7 @@
          <li>
             <defName>Abrasive</defName>
          </li>
+		 <!-- PATCH: RWoM: Sniper Trait -->
       </forcedTraits>
       <workDisables>
          <li>Caring</li>
@@ -194,6 +197,7 @@
          <li>
             <defName>Abrasive</defName>
          </li>
+		 <!-- PATCH: RWoM: Gladiator Trait -->
       </forcedTraits>
       <workDisables>
          <li>Caring</li>
@@ -615,13 +619,11 @@
       <workDisables>
          <li>ManualDumb</li>
          <li>Violent</li>
-         <li>Social</li>
          <li>Animals</li>
          <li>Artistic</li>
          <li>Crafting</li>
          <li>Cooking</li>
          <li>Firefighting</li>
-         <li>Cleaning</li>
          <li>Hauling</li>
          <li>PlantWork</li>
          <li>Mining</li>

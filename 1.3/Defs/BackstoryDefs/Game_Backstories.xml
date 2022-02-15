@@ -49,12 +49,13 @@
             <defName>Brawler</defName>
             <chance>50</chance>
          </li>
+		 <!-- PATCH: RWoM: Wanderer Trait 50% -->
       </forcedTraits>
       <requiredWorkTags>
          <li>Violent</li>
       </requiredWorkTags>
-      <maleCommonality>1</maleCommonality>
-      <femaleCommonality>1</femaleCommonality>
+      <maleCommonality>10</maleCommonality>
+      <femaleCommonality>10</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Game_3</defName>
@@ -144,7 +145,6 @@
       <slot>Adulthood</slot>
       <spawnCategories>
          <li>Offworld</li>
-         <li>Outlander</li>
       </spawnCategories>
       <skillGains>
          <li>
@@ -183,6 +183,7 @@
             <defName>SpeedOffset</defName>
             <degree>2</degree>
          </li>
+		 <!-- PATCH: RWoM: Super Soldier Trait -->
       </forcedTraits>
       <requiredWorkTags>
          <li>Violent</li>
@@ -327,6 +328,7 @@
             <defName>SpeedOffset</defName>
             <degree>2</degree>
          </li>
+		 <!-- PATCH: RWoM: Sniper Trait 50% -->
       </forcedTraits>
       <requiredWorkTags>
          <li>Violent</li>
@@ -367,10 +369,7 @@
          </li>
       </skillGains>
       <forcedTraits>
-         <li>
-            <defName>SpeedOffset</defName>
-            <degree>2</degree>
-         </li>
+		 <!-- PATCH: RWoM: Technomancer Trait 50%-->
       </forcedTraits>
       <requiredWorkTags>
          <li>Violent</li>
@@ -471,6 +470,7 @@
             <defName>Nerves</defName>
             <degree>2</degree>
          </li>
+		 <!-- PATCH: RWoM: Super Soldier Trait 50%-->
       </forcedTraits>
       <requiredWorkTags>
          <li>Violent</li>
@@ -478,6 +478,8 @@
          <li>Constructing</li>
          <li>Crafting</li>
       </requiredWorkTags>
+      <maleCommonality>0.001</maleCommonality>
+      <femaleCommonality>0.001</femaleCommonality>
       <linkedBackstory>SS_Game_5</linkedBackstory>
    </AlienRace.BackstoryDef>
 </Defs>

@@ -28,8 +28,13 @@
             <chance>50</chance>
          </li>
          <li>
+            <defName>Neurotic</defName>
+			<degree>1</degree>
+            <chance>25</chance>
+         </li>
+         <li>
             <defName>Wimp</defName>
-            <chance>50</chance>
+            <chance>25</chance>
          </li>
       </forcedTraits>
       <requiredWorkTags>
@@ -42,7 +47,7 @@
       <titleFemale>youthful leader</titleFemale>
       <titleShort>leader</titleShort>
       <titleShortFemale>leader</titleShortFemale>
-      <baseDescription>[PAWN_nameDef] served as the leader of [PAWN_possessive] his circle of friends. They got into many rowdy adventures, and [PAWN_nameDef]'s quick thinking and leadership talent always got them out of a bind.</baseDescription>
+      <baseDescription>[PAWN_nameDef] served as the leader of [PAWN_possessive] circle of friends. They got into many rowdy adventures, and [PAWN_nameDef]'s quick thinking and leadership talent always got them out of a bind.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
@@ -69,11 +74,14 @@
          <li>
             <defName>Nimble</defName>
          </li>
+		 <!-- PATCH: RWoM: Commander Trait 20%, Bard 20% -->
       </forcedTraits>
       <requiredWorkTags>
          <li>Violent</li>
          <li>Caring</li>
       </requiredWorkTags>
+      <maleCommonality>60</maleCommonality>
+      <femaleCommonality>60</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_3</defName>
@@ -93,7 +101,7 @@
       <skillGains>
          <li>
             <defName>Melee</defName>
-            <amount>6</amount>
+            <amount>3</amount>
          </li>
       </skillGains>
       <forcedTraits>
@@ -103,6 +111,7 @@
          <li>
             <defName>Brawler</defName>
          </li>
+		 <!-- PATCH: RWoM: Blademaster Trait -->
       </forcedTraits>
       <requiredWorkTags>
          <li>Violent</li>
@@ -140,9 +149,10 @@
          <li>
             <defName>Brawler</defName>
          </li>
+	     <!-- PATCH: RWoM: Physically Adept Trait -->
       </forcedTraits>
-      <maleCommonality>10</maleCommonality>
-      <femaleCommonality>1</femaleCommonality>
+      <maleCommonality>60</maleCommonality>
+      <femaleCommonality>10</femaleCommonality>
       <requiredWorkTags>
          <li>Violent</li>
       </requiredWorkTags>
@@ -186,7 +196,7 @@
       <titleFemale>fairytale girl</titleFemale>
       <titleShort>idealist</titleShort>
       <titleShortFemale>idealist</titleShortFemale>
-      <baseDescription>[PAWN_nameDef] was an idealistic child who loved to read fairy tales growing up. Despite [PAWN_possessive] naivete, [PAWN_pronoun]'s kind heart made [PAWN_objective] well-loved in [PAWN_possessive] midworld high school.</baseDescription>
+      <baseDescription>[PAWN_nameDef] was an idealistic child who loved to read fairy tales growing up. Despite [PAWN_possessive] naivete, [PAWN_nameDef]'s kind heart made [PAWN_objective] well-loved in [PAWN_possessive] midworld high school.</baseDescription>
       <bodyTypeMale>Thin</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
@@ -216,8 +226,8 @@
       <requiredWorkTags>
          <li>Social</li>
       </requiredWorkTags>
-      <maleCommonality>10</maleCommonality>
-      <femaleCommonality>20</femaleCommonality>
+      <maleCommonality>30</maleCommonality>
+      <femaleCommonality>80</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_7</defName>
@@ -237,7 +247,7 @@
       <skillGains>
          <li>
             <defName>Intellectual</defName>
-            <amount>6</amount>
+            <amount>7</amount>
          </li>
          <li>
             <defName>Crafting</defName>
@@ -282,7 +292,7 @@
       <forcedTraits>
          <li>
             <defName>Nerves</defName>
-			<degree>-1</degree>
+            <degree>-1</degree>
             <chance>50</chance>
          </li>
          <li>
@@ -291,6 +301,8 @@
          </li>
       </forcedTraits>
       <requiredWorkTags />
+      <maleCommonality>80</maleCommonality>
+      <femaleCommonality>80</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_9</defName>
@@ -317,7 +329,7 @@
          </li>
          <li>
             <defName>Social</defName>
-            <amount>4</amount>
+            <amount>-2</amount>
          </li>
          <li>
             <defName>Medicine</defName>
@@ -327,7 +339,7 @@
       <forcedTraits>
          <li>
             <defName>Nerves</defName>
-			<degree>2</degree>
+            <degree>2</degree>
             <chance>50</chance>
          </li>
          <li>
@@ -336,6 +348,8 @@
          </li>
       </forcedTraits>
       <requiredWorkTags />
+      <maleCommonality>55</maleCommonality>
+      <femaleCommonality>55</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_10</defName>
@@ -378,7 +392,7 @@
          </li>
       </skillGains>
       <workDisables>
-         <li>ManualDumb</li>
+         <li>Hauling</li>
       </workDisables>
       <requiredWorkTags />
    </AlienRace.BackstoryDef>
@@ -410,7 +424,7 @@
          </li>
          <li>
             <defName>SpeedOffset</defName>
-			<degree>2</degree>
+            <degree>2</degree>
             <chance>50</chance>
          </li>
          <li>
@@ -424,12 +438,13 @@
             <defName>Immunity</defName>
             <degree>-1</degree>
          </li>
+	     <!-- PATCH: RWoM: Bladedancer Trait -->
       </forcedTraits>
       <requiredWorkTags>
          <li>Violent</li>
       </requiredWorkTags>
-	  <maleCommonality>3</maleCommonality>
-	  <femaleCommonality>3</femaleCommonality>
+      <maleCommonality>15</maleCommonality>
+      <femaleCommonality>15</femaleCommonality>
    </AlienRace.BackstoryDef>
    <!-- Next Anime-->
    <AlienRace.BackstoryDef>
@@ -438,7 +453,7 @@
       <titleFemale>amnesiac</titleFemale>
       <titleShort>amnesiac</titleShort>
       <titleShortFemale>amnesiac</titleShortFemale>
-      <baseDescription>[PAWN_nameDef] awoke on the Rimworld with no memory of who [PAWN_pronoun] was.</baseDescription>
+      <baseDescription>[PAWN_nameDef] awoke on the rimworld with no memory of who [PAWN_pronoun] was.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
@@ -446,8 +461,9 @@
          <li>Offworld</li>
          <li>Outlander</li>
       </spawnCategories>
-	  <maleCommonality>3</maleCommonality>
-	  <femaleCommonality>3</femaleCommonality>
+	  <!-- PATCH: RWoM: Wanderer Trait 40% -->
+      <maleCommonality>10</maleCommonality>
+      <femaleCommonality>10</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_31</defName>
@@ -495,9 +511,10 @@
             <amount>-2</amount>
          </li>
       </skillGains>
+	  <!-- PATCH: RWoM: Wanderer Trait 10% -->
       <requiredWorkTags />
-	  <maleCommonality>3</maleCommonality>
-	  <femaleCommonality>5</femaleCommonality>
+      <maleCommonality>10</maleCommonality>
+      <femaleCommonality>10</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Anime_32</defName>
@@ -529,13 +546,14 @@
             <defName>Social</defName>
             <amount>4</amount>
          </li>
+		<!-- PATCH: RWoM: Druid Trait -->
       </skillGains>
       <requiredWorkTags>
          <li>Caring</li>
          <li>Cleaning</li>
       </requiredWorkTags>
-	  <maleCommonality>3</maleCommonality>
-	  <femaleCommonality>3</femaleCommonality>
+      <maleCommonality>10</maleCommonality>
+      <femaleCommonality>10</femaleCommonality>
    </AlienRace.BackstoryDef>
    <!-- Next Anime-->
    <AlienRace.BackstoryDef>
@@ -547,25 +565,62 @@
       <baseDescription>[PAWN_nameDef], from a young age, demonstrated consistent intellectual and tactical prowess, rising rapidly to a high rank in [PAWN_possessive] world's military.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
+      <spawnCategories>
+         <li>Offworld</li>
+         <li>Outlander</li>
+         <li>ImperialFighter</li>
+      </spawnCategories>
       <slot>Childhood</slot>
       <skillGains>
          <li>
             <defName>Intellectual</defName>
-            <amount>7</amount>
+            <amount>10</amount>
          </li>
          <li>
             <defName>Shooting</defName>
-            <amount>3</amount>
+            <amount>6</amount>
          </li>
          <li>
             <defName>Social</defName>
-            <amount>4</amount>
+            <amount>9</amount>
          </li>
       </skillGains>
-	  <maleCommonality>3</maleCommonality>
-	  <femaleCommonality>3</femaleCommonality>
+	     <!-- PATCH: RWoM: Commander Trait -->
+      <maleCommonality>10</maleCommonality>
+      <femaleCommonality>10</femaleCommonality>
    </AlienRace.BackstoryDef>
    <!-- Next Anime-->
+   
+   <!--  IN PROGRESS <AlienRace.BackstoryDef>
+      <defName>SS_Anime_50</defName>
+      <title>death engine</title>
+      <titleFemale>death engine</titleFemale>
+      <titleShort>monstrosity</titleShort>
+      <titleShortFemale>monstrosity</titleShortFemale>
+      <baseDescription>Not much is known about [PAWN_nameDef]. </baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+      <spawnCategories>
+         <li>Offworld</li>
+      </spawnCategories>
+      <slot>Adulthood</slot>
+      <skillGains>
+         <li>
+            <defName>Melee</defName>
+            <amount>17</amount>
+         </li>
+         <li>
+            <defName>Shooting</defName>
+            <amount>6</amount>
+         </li>
+         <li>
+            <defName>Social</defName>
+            <amount>9</amount>
+         </li>
+      </skillGains>
+	  <maleCommonality>1</maleCommonality>
+	  <femaleCommonality>1</femaleCommonality>
+   </AlienRace.BackstoryDef> -->
 </Defs>
 <!--
 

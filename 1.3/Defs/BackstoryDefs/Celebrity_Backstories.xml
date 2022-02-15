@@ -34,8 +34,8 @@
          <li>Constructing</li>
          <li>Crafting</li>
       </requiredWorkTags>
-      <maleCommonality>.01</maleCommonality>
-      <femaleCommonality>.01</femaleCommonality>	  
+      <maleCommonality>20</maleCommonality>
+      <femaleCommonality>20</femaleCommonality>	  
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-2</defName>
@@ -83,8 +83,8 @@
       <requiredWorkTags>
          <li>Cooking</li>
       </requiredWorkTags>
-      <maleCommonality>.01</maleCommonality>
-      <femaleCommonality>.01</femaleCommonality>
+      <maleCommonality>20</maleCommonality>
+      <femaleCommonality>20</femaleCommonality>	  
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-3</defName>
@@ -139,6 +139,7 @@
             <amount>2</amount>
          </li>
       </skillGains>
+	  <!-- PATCH: RWoM: Faceless Trait 20% -->
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-5</defName>
@@ -155,6 +156,7 @@
          <li>Outlander</li>
          <li>ImperialCommon</li>
       </spawnCategories>
+	  <!-- PATCH: RWoM: Wanderer Trait -->
       <skillGains>
          <li>
             <defName>Artistic</defName>
@@ -180,7 +182,7 @@
       <titleFemale>admiral's descendant</titleFemale>
       <titleShort>midshipman</titleShort>
       <titleShortFemale>midshipman</titleShortFemale>
-      <baseDescription>[PAWN_nameDef] always looked up to [PAWN_possessive] grandfather, a well-known admiral. [PAWN_pronoun] would always sail boats in [PAWN_possessive] backyard, in hopes of following in his footsteps.</baseDescription>
+      <baseDescription>[PAWN_nameDef] always looked up to [PAWN_possessive] great-grandfather, a well-known admiral. [PAWN_pronoun] would always sail boats in [PAWN_possessive] backyard, in hopes of following in his footsteps.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Childhood</slot>
@@ -199,6 +201,8 @@
             <amount>2</amount>
          </li>
       </skillGains>
+      <maleCommonality>20</maleCommonality>
+      <femaleCommonality>20</femaleCommonality>	  
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-7</defName>
@@ -206,7 +210,7 @@
       <titleFemale>cyberspace admiral</titleFemale>
       <titleShort>admiral</titleShort>
       <titleShortFemale>admiral</titleShortFemale>
-      <baseDescription>[PAWN_nameDef] was a high-ranking admiral in [PAWN_possessive] world's Navy, serving as head of development for computer-based technologies. [PAWN_pronoun] was credited with advancing [PAWN_possessive] world's information technology by leaps and bounds.</baseDescription>
+      <baseDescription>[PAWN_nameDef] was a high-ranking admiral in [PAWN_possessive] country's navy, serving as head of development for computer-based technologies. [PAWN_pronoun] was credited with advancing [PAWN_possessive] world's information technology by leaps and bounds.</baseDescription>
       <bodyTypeMale>Male</bodyTypeMale>
       <bodyTypeFemale>Female</bodyTypeFemale>
       <slot>Adulthood</slot>
@@ -221,12 +225,13 @@
             <amount>10</amount>
          </li>
       </skillGains>
+	  <!-- PATCH: RWoM: Commander Trait 30%, Technomancer Trait 30% -->
       <requiredWorkTags>
          <li>Intellectual</li>
          <li>Shooting</li>
       </requiredWorkTags>
-      <maleCommonality>5</maleCommonality>
-      <femaleCommonality>5</femaleCommonality>
+      <maleCommonality>20</maleCommonality>
+      <femaleCommonality>20</femaleCommonality>	  
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-8</defName>
@@ -267,6 +272,7 @@
             <defName>Tough</defName>
             <chance>50</chance>
          </li>
+		 <!-- PATCH: RWoM: Physically Adept Trait -->
       </forcedTraits>
       <maleCommonality>45</maleCommonality>
       <femaleCommonality>30</femaleCommonality>
@@ -318,6 +324,8 @@
             <defName>Ascetic</defName>
             <chance>25</chance>
          </li>
+	<!-- PATCH: RWoM: Physically Adept Trait 50% -->
+	<!-- PATCH: VTE: Mountain Lover Trait 50%  -->
       </forcedTraits>
       <requiredWorkTags>
          <li>PlantWork</li>
@@ -326,8 +334,8 @@
          <li>Constructing</li>
          <li>Crafting</li>
       </requiredWorkTags>
-      <maleCommonality>25</maleCommonality>
-      <femaleCommonality>15</femaleCommonality>
+      <maleCommonality>90</maleCommonality>
+      <femaleCommonality>60</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-10</defName>
@@ -375,8 +383,8 @@
          <li>Constructing</li>
          <li>Crafting</li>
       </requiredWorkTags>
-      <maleCommonality>20</maleCommonality>
-      <femaleCommonality>15</femaleCommonality>
+      <maleCommonality>45</maleCommonality>
+      <femaleCommonality>30</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-11</defName>
@@ -402,6 +410,8 @@
       <requiredWorkTags>
          <li>Social</li>
       </requiredWorkTags>
+      <maleCommonality>70</maleCommonality>
+      <femaleCommonality>70</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-12</defName>
@@ -428,6 +438,10 @@
             <amount>3</amount>
          </li>
       </skillGains>
+	  
+	<!-- PATCH: RWoM: Physically Adept Trait -->
+      <maleCommonality>90</maleCommonality>
+      <femaleCommonality>90</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-13</defName>
@@ -472,10 +486,13 @@
             <defName>Ascetic</defName>
             <chance>50</chance>
          </li>
+		 <!-- PATCH: RWoM: Monk Trait -->
       </forcedTraits>
       <requiredWorkTags>
          <li>Violent</li>
       </requiredWorkTags>
+      <maleCommonality>60</maleCommonality>
+      <femaleCommonality>60</femaleCommonality>
    </AlienRace.BackstoryDef>
    <AlienRace.BackstoryDef>
       <defName>SS_Celeb-14</defName>
@@ -511,6 +528,7 @@
             <defName>Ascetic</defName>
             <chance>50</chance>
          </li>
+		 <!-- PATCH: RWoM: Priest Trait -->
       </forcedTraits>
       <requiredWorkTags>
          <li>Caring</li>
@@ -580,15 +598,15 @@
       <skillGains>
          <li>
             <defName>Intellectual</defName>
-            <amount>4</amount>
+            <amount>6</amount>
          </li>
          <li>
             <defName>Crafting</defName>
-            <amount>4</amount>
+            <amount>6</amount>
          </li>
          <li>
             <defName>Construction</defName>
-            <amount>3</amount>
+            <amount>6</amount>
          </li>
       </skillGains>
    </AlienRace.BackstoryDef>
@@ -626,12 +644,13 @@
             <defName>Abrasive</defName>
             <chance>50</chance>
          </li>
+		<!-- PATCH: RWoM: Technomancer Trait -->
       </forcedTraits>
       <requiredWorkTags>
          <li>Intellectual</li>
       </requiredWorkTags>
-      <maleCommonality>6</maleCommonality>
-      <femaleCommonality>2</femaleCommonality>
+      <maleCommonality>20</maleCommonality>
+      <femaleCommonality>10</femaleCommonality>
    </AlienRace.BackstoryDef>
 </Defs>
 <!--
